@@ -118,6 +118,7 @@ export default function Home() {
       </div>
       <AppSection />
       <HowItWorks data={works} />
+      <></>
     </Layout>
   )
 }
