@@ -1,0 +1,67 @@
+.root {
+  background: #1f1a3d;
+}
+
+.wrap {
+  @apply container m-auto;
+}
+
+.inner {
+  @apply p-4;
+}
+
+.border {
+  border-color: #dbdae0;
+}
+
+.copyWrite {
+  @apply text-base md:text-body text-center pt-10 pb-16 md:pb-10;
+  color: #79768b;
+}
+
+.menu {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_0.5fr_1.5fr_1fr] pt-8 pb-6;
+
+  & div {
+    @apply py-6;
+  }
+}
+
+.social {
+  @apply flex items-center py-2 md:py-10;
+}
+
+.icon {
+  @apply pr-7 hover:opacity-60;
+}
+
+.title {
+  @apply text-white font-medium text-body pb-5 hover:underline;
+}
+
+.heading {
+  @apply text-white font-medium text-body pb-5;
+}
+
+.link {
+  @apply text-white font-extralight float-left w-1/2 pb-4 hover:underline font-dm text-body;
+}
+
+.text {
+  @apply text-white text-body font-light;
+}
+
+.form {
+  @apply my-5 rounded-default flex bg-black;
+
+  & input {
+    @apply bg-black p-3 w-11/12 md:w-full rounded-default focus:outline-none text-white;
+    ::placeholder {
+      color: red;
+    }
+  }
+
+  & button {
+    @apply mr-3;
+  }
+}

@@ -1,0 +1,11 @@
+.wrap {
+  @apply container m-auto py-10 px-6;
+}
+
+.heading {
+  @apply py-10 md:py-20;
+}
+
+.body {
+  @apply py-4 md:py-20;
+}

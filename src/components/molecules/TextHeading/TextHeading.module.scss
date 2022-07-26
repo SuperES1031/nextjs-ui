@@ -1,0 +1,11 @@
+.wrap {
+  @apply container m-auto text-center;
+}
+
+.heading {
+  @apply text-4xl md:text-head font-bold text-[#1f1a3d] tracking-normal max-w-screen-lg m-auto;
+}
+
+.subheading {
+  @apply text-[#676477] text-[18px] md:text-[24px] font-bold pt-4;
+}

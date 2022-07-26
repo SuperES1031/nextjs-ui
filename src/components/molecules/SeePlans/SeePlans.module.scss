@@ -1,0 +1,19 @@
+.wrap {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center;
+}
+
+.image {
+  @apply h-[90px] w-auto m-auto;
+}
+
+.subheading {
+  @apply font-bold text-[18px] md:text-body py-2 text-[#1F1A3D];
+}
+
+.text {
+  @apply text-[18px] md:text-body pb-6 text-[#1F1A3D] max-w-[300px] m-auto;
+}
+
+.price {
+  @apply text-[18px] md:text-body pt-6 text-[#51505C];
+}

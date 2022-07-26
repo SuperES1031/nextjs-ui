@@ -1,0 +1,24 @@
+.root {
+  @apply relative;
+}
+
+.wrap {
+  @apply text-center text-white w-full;
+  max-width: 1042px;
+}
+
+.heading {
+  @apply text-4xl md:text-head font-semibold py-3 px-6;
+}
+
+.text {
+  @apply text-[18px] md:text-body py-4 px-6;
+}
+
+.subheading {
+  @apply text-[18px] md:text-body font-semibold px-6;
+}
+
+.btn {
+  @apply pt-16;
+}

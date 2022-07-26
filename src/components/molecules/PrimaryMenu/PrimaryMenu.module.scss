@@ -1,0 +1,83 @@
+.wrap {
+  @apply absolute top-0 left-0 w-full z-50;
+}
+
+.inner {
+  @apply xl:container m-auto p-4 md:py-10;
+}
+
+.desktop {
+  @apply flex flex-wrap justify-between items-center;
+}
+
+.logo {
+  @apply flex mr-10;
+}
+
+.menus {
+  @apply hidden lg:flex space-x-8;
+}
+
+.menu {
+  @apply inline-flex items-center text-body font-light;
+}
+
+.login {
+  @apply inline-flex items-center text-body font-medium text-headColor;
+}
+
+.active {
+  @apply text-headColor;
+}
+
+.primaryColor {
+  @apply text-white;
+}
+
+.secondaryColor {
+  @apply text-black;
+}
+
+.hamburgerWrap {
+  @apply -mr-2 -my-2 lg:hidden;
+}
+
+.hamburger {
+  @apply rounded-md p-2 inline-flex items-center justify-center focus:outline-none;
+
+  & span {
+    @apply sr-only;
+  }
+
+  & svg {
+    @apply h-6 w-6;
+  }
+}
+
+.mobile {
+  @apply absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden z-50;
+}
+
+.mobileInner {
+  @apply rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white pt-5 pb-6 px-5;
+}
+
+.mobileHead {
+  @apply flex items-center justify-end;
+}
+
+.mobileBody {
+  @apply mt-6;
+
+  & nav {
+    @apply grid gap-y-5;
+  }
+}
+
+.mobileActive {
+  @apply text-headColor;
+}
+
+.mobileMenu {
+  @apply inline-flex items-center text-body font-light hover:underline;
+}

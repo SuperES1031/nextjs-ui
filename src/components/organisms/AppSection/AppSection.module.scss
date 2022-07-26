@@ -1,0 +1,15 @@
+.root {
+  @apply bg-[#1F1A3D];
+}
+
+.wrap {
+  @apply container m-auto text-center pt-5 px-5;
+}
+
+.heading {
+  @apply text-4xl md:text-head text-white font-semibold max-w-[750px] m-auto  py-20;
+}
+
+.imgWrap {
+  @apply pt-5;
+}
