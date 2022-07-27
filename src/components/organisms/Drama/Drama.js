@@ -29,7 +29,7 @@ export default function Drama() {
   ]
 
   return (
-    <section className={styles.root}>
+    <div className={styles.root}>
       <div className={styles.wrap}>
         <div className={styles.heading}>
           <TextHeading
@@ -49,6 +49,6 @@ export default function Drama() {
           </Link>
         </div>
       </div>
-    </section>
+    </div>
   )
 }

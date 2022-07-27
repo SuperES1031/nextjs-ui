@@ -6,6 +6,8 @@ import AppSection from "@components/organisms/AppSection";
 import HowItWorks from "@components/organisms/HowItWorks";
 import Drama from "@components/organisms/Drama";
 import PretzelMean from "@components/organisms/PretzelMean";
+import Backed from "@components/organisms/Backed";
+import Testimonial from "@components/organisms/Testimonial";
 
 // export async function getStaticProps() {
 
@@ -122,6 +124,12 @@ export default function Home() {
       <HowItWorks data={works} />
       <Drama />
       <PretzelMean />
+      <div className="bg-[#F5F4FA]">
+        <Backed />
+      </div>
+      <div>
+        <Testimonial />
+      </div>
     </Layout>
   )
 }

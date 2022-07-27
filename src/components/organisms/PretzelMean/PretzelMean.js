@@ -18,7 +18,7 @@ export default function PretzelMean() {
   ]
 
   return (
-    <section>
+    <div>
       <div className={styles.wrap}>
         <div className={styles.heading}>
           <h2 className={styles.title}>{text.heading}</h2>
@@ -36,6 +36,6 @@ export default function PretzelMean() {
           </Link>
         </div>
       </div>
-    </section>
+    </div>
   )
 }

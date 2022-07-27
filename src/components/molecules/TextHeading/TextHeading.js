@@ -2,7 +2,7 @@ import styles from './TextHeading.module.scss'
 
 export default function TextHeading({ heading, subheading, text }) {
   return (
-    <section>
+    <div>
       <div className={styles.wrap}>
         {heading && (
           <h2 className={styles.heading}>{heading}</h2>
@@ -17,6 +17,6 @@ export default function TextHeading({ heading, subheading, text }) {
         )}
 
       </div>
-    </section>
+    </div>
   )
 }

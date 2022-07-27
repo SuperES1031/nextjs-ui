@@ -11,7 +11,7 @@ export default function ComPrice(props) {
 
 
   return (
-    <section className='relative'>
+    <div className='relative'>
       <Background image={images.beforeIcon} />
       <Background image={images.afterIcon} className='right-0 bottom-0' />
       <div className={styles.wrap}>
@@ -25,6 +25,6 @@ export default function ComPrice(props) {
           <SeePlans seeplan={seeplan} />
         </div>
       </div>
-    </section>
+    </div>
   )
 }

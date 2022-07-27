@@ -1,0 +1,11 @@
+.wrap {
+  @apply container m-auto px-6 py-20 md:py-40;
+}
+
+.heading {
+  @apply py-10 md:py-20 max-w-[1170px] m-auto;
+}
+
+.body {
+  @apply py-10 md:py-20 max-w-[650px] m-auto;
+}

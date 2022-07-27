@@ -8,7 +8,7 @@ export default function HowItWorks(props) {
   const works = props.data[1]
   const images = props.data[2]
   return (
-    <section className='relative'>
+    <div className='relative'>
       <Background image={images.beforeIcon} className='left-[-200px]' />
       <Background image={images.afterIcon} className='right-0 bottom-0' />
       <div className={styles.wrap}>
@@ -22,6 +22,6 @@ export default function HowItWorks(props) {
           <GridImage data={works} />
         </div>
       </div>
-    </section>
+    </div>
   )
 }

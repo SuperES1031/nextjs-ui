@@ -12,9 +12,9 @@ export default function GridImage(props) {
       <ul className={cn(
         styles.wrap,
         classname,
-        Grid(items.length)
+        items ? Grid(items.length) : ""
       )}>
-        {items.map((item, index) => (
+        {items && items.map((item, index) => (
           <li key={index} className=''>
             {item.image && (
               <Image src={item.image} className={styles.image} alt={item.subheading} />

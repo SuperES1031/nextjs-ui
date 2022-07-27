@@ -25,5 +25,7 @@ export const images = {
   wwf: 'https://pretzelwarranty.com/static/media/wwf.3f8d007595fe5e8a8286a33c0285ff34.svg',
   world_cent_kitchen: 'https://pretzelwarranty.com/static/media/wck.fd632b30f56473852e9a911b49335400.svg',
   unicef: 'https://pretzelwarranty.com/static/media/unicef.85117a20092f26a850dd1839ffe26191.svg',
-  directrelief: 'https://pretzelwarranty.com/static/media/direct-relief.ea075dd2cb2eec3c38c3e41802c7b29a.svg'
+  directrelief: 'https://pretzelwarranty.com/static/media/direct-relief.ea075dd2cb2eec3c38c3e41802c7b29a.svg',
+  allianz: 'https://pretzelwarranty.com/static/media/allianz-logo.dae3c737e69b5c74faab26f14502075c.svg',
+  aig: 'https://pretzelwarranty.com/static/media/aig-logo.7059844e42d863322b6fffbcfd4fbb80.svg'
 }

@@ -6,7 +6,7 @@ import cn from 'classnames'
 export default function Hero({ image, heading, subheading, text, button, buttonlink }) {
 
   return (
-    <section className='relative'>
+    <div className='relative'>
       <Image
         src={image}
         className="w-screen h-[75vh] md:h-screen object-cover"
@@ -28,7 +28,7 @@ export default function Hero({ image, heading, subheading, text, button, buttonl
           )}
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 
