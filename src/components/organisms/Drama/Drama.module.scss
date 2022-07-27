@@ -1,0 +1,22 @@
+.root {
+  @apply bg-[#F5F4FA] mt-20;
+}
+.wrap {
+  @apply max-w-[1400px] m-auto px-6 py-20;
+}
+
+.heading {
+  @apply max-w-[1150px] m-auto md:py-10;
+}
+
+.body {
+  @apply md:py-10;
+}
+
+.text {
+  @apply text-[20px] md:text-[24px] font-bold text-center py-10;
+}
+
+.footer {
+  @apply text-center py-10;
+}

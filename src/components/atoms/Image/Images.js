@@ -12,6 +12,13 @@ export const images = {
   flat_low_rates: 'https://pretzelwarranty.com/static/media/rate.4fd9f8aa1e8aaed61d47fe6588e5e25c.svg',
   quick_easy_payments: 'https://pretzelwarranty.com/static/media/payments.06cd39ac5acb1cbd40d4527ab900552b.svg',
   unexpected_expenses: 'https://pretzelwarranty.com/static/media/bank.4d5d050c9801ffbb5558a8da2eb57ce6.svg',
-  money_left: 'https://pretzelwarranty.com/static/media/heart.155543067b213e66cd104caeaed286ef.svg'
-
+  money_left: 'https://pretzelwarranty.com/static/media/heart.155543067b213e66cd104caeaed286ef.svg',
+  robo_calling: 'https://pretzelwarranty.com/static/media/no-drama1.25a3a60cb0702d408cc204215929b528.svg',
+  scary_letter: 'https://pretzelwarranty.com/static/media/no-drama2.be71638ff41453adacf1666aed559128.svg',
+  claim: 'https://pretzelwarranty.com/static/media/no-drama3.75cfe3f925272a932f0d6d20ee2d62b1.svg',
+  cancel: 'https://pretzelwarranty.com/static/media/no-drama4.c04390bf82e1860616a3ffbbc0c307fa.svg',
+  robo_calling_icon: 'https://pretzelwarranty.com/static/media/tip1.e1b649b48004ae54c2c0.svg',
+  scary_letter_icon: 'https://pretzelwarranty.com/static/media/tip2.64af812f05f4b32e9f78.svg',
+  claim_icon: 'https://pretzelwarranty.com/static/media/tip3.b20ec8773d65110d3d60.svg',
+  cancel_icon: 'https://pretzelwarranty.com/static/media/tip4.80b3fc9caea92ec33bd9.svg',
 }

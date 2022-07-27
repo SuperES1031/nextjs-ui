@@ -1,0 +1,35 @@
+.wrap {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center;
+
+  & li {
+    @apply relative my-12 md:my-10;
+  }
+
+  & li:first-child::before {
+    @apply content-[''] h-[50px] right-[20px] top-[-30px] w-[175px] md:absolute ml-[50%] z-10 block bg-no-repeat;
+    background: url("https://pretzelwarranty.com/static/media/tip1.e1b649b48004ae54c2c0.svg");
+  }
+
+  & li:nth-child(2)::before {
+    @apply content-[''] h-[100px] right-[100px] top-[-70px] md:top-[-90px] w-[150px] md:absolute m-auto z-10 block bg-no-repeat;
+    background: url("https://pretzelwarranty.com/static/media/tip2.64af812f05f4b32e9f78.svg");
+  }
+
+  & li:nth-child(3)::before {
+    @apply content-[''] h-[120px] right-[170px] top-[-70px] w-[145px] md:absolute m-auto z-10 block bg-no-repeat mb-[-35px] md:mb-0;
+    background: url("https://pretzelwarranty.com/static/media/tip3.b20ec8773d65110d3d60.svg");
+  }
+
+  & li:last-child::before {
+    @apply content-[''] h-[68px] right-[160px] top-[-50px] w-[218px] md:absolute z-10 block bg-no-repeat;
+    background: url("https://pretzelwarranty.com/static/media/tip4.80b3fc9caea92ec33bd9.svg");
+  }
+}
+
+.image {
+  @apply h-[200px] md:h-[220px] w-auto m-auto;
+}
+
+.subheading {
+  @apply font-bold text-[20px] md:text-[24px] py-2 px-6 leading-7 text-[#1F1A3D];
+}

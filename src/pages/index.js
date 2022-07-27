@@ -4,6 +4,7 @@ import ComPrice from "@components/organisms/ComPrice";
 import TextHeading from "@components/molecules/TextHeading";
 import AppSection from "@components/organisms/AppSection";
 import HowItWorks from "@components/organisms/HowItWorks";
+import Drama from "@components/organisms/Drama";
 
 // export async function getStaticProps() {
 
@@ -118,7 +119,7 @@ export default function Home() {
       </div>
       <AppSection />
       <HowItWorks data={works} />
-      <></>
+      <Drama />
     </Layout>
   )
 }
