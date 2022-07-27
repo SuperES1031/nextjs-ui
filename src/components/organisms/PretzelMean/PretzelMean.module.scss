@@ -1,0 +1,23 @@
+.wrap {
+  @apply container m-auto text-center my-10 px-6 md:py-20;
+}
+
+.text {
+  @apply text-body font-bold py-4 text-[#1F1A3D];
+}
+
+.title {
+  @apply text-4xl md:text-head font-bold text-[#1f1a3d] tracking-normal m-auto;
+}
+
+.heading {
+  @apply max-w-[1200px] m-auto mt-20;
+}
+
+.body {
+  @apply py-10;
+}
+
+.footer {
+  @apply mb-20;
+}

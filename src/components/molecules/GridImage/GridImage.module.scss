@@ -1,9 +1,9 @@
 .wrap {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center;
+  @apply grid text-center items-center;
 }
 
 .image {
-  @apply h-[200px] md:h-[220px] w-auto m-auto;
+  @apply w-auto m-auto;
 }
 
 .subheading {

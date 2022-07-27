@@ -1,9 +1,8 @@
-import Image from '@components/atoms/Image';
-import Grid from '@functions/grid';
+import styles from './GridImage5.module.scss'
 import cn from 'classnames';
-import styles from './GridImage.module.scss';
+import Image from '@components/atoms/Image';
 
-export default function GridImage(props) {
+export default function GridImage5(props) {
   const items = props.data
   const classname = props.className
 
@@ -11,16 +10,12 @@ export default function GridImage(props) {
     <div>
       <ul className={cn(
         styles.wrap,
-        classname,
-        Grid(items.length)
+        classname
       )}>
         {items.map((item, index) => (
           <li key={index} className=''>
             {item.image && (
               <Image src={item.image} className={styles.image} alt={item.subheading} />
-            )}
-            {item.subheading && (
-              <p className={styles.subheading} >{item.subheading}</p>
             )}
           </li>
         ))}

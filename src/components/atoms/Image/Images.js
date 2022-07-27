@@ -21,4 +21,9 @@ export const images = {
   scary_letter_icon: 'https://pretzelwarranty.com/static/media/tip2.64af812f05f4b32e9f78.svg',
   claim_icon: 'https://pretzelwarranty.com/static/media/tip3.b20ec8773d65110d3d60.svg',
   cancel_icon: 'https://pretzelwarranty.com/static/media/tip4.80b3fc9caea92ec33bd9.svg',
+  wags: 'https://pretzelwarranty.com/static/media/wags.92f1a761955bd736f522defd52514420.svg',
+  wwf: 'https://pretzelwarranty.com/static/media/wwf.3f8d007595fe5e8a8286a33c0285ff34.svg',
+  world_cent_kitchen: 'https://pretzelwarranty.com/static/media/wck.fd632b30f56473852e9a911b49335400.svg',
+  unicef: 'https://pretzelwarranty.com/static/media/unicef.85117a20092f26a850dd1839ffe26191.svg',
+  directrelief: 'https://pretzelwarranty.com/static/media/direct-relief.ea075dd2cb2eec3c38c3e41802c7b29a.svg'
 }

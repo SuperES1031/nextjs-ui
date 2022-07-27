@@ -5,6 +5,7 @@ import TextHeading from "@components/molecules/TextHeading";
 import AppSection from "@components/organisms/AppSection";
 import HowItWorks from "@components/organisms/HowItWorks";
 import Drama from "@components/organisms/Drama";
+import PretzelMean from "@components/organisms/PretzelMean";
 
 // export async function getStaticProps() {
 
@@ -120,6 +121,7 @@ export default function Home() {
       <AppSection />
       <HowItWorks data={works} />
       <Drama />
+      <PretzelMean />
     </Layout>
   )
 }
