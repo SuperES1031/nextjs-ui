@@ -1,0 +1,21 @@
+.root {
+  @apply relative;
+}
+
+.wrap {
+  @apply container m-auto;
+
+  & .heading {
+    @apply pt-20;
+  }
+  & .body {
+    @apply mt-[-50px];
+
+    & img {
+      @apply m-auto;
+    }
+  }
+  & .footer {
+    @apply text-center pb-20;
+  }
+}

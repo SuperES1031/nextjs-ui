@@ -1,7 +1,7 @@
 export const images = {
   logo_primary:
     'https://pretzelwarranty.com/static/media/logo.ecd1bb234cf8053672f3fecc9562121e.svg',
-  logo_secondary: 'https://pretzelwarranty.com/static/media/logo.ecd1bb234cf8053672f3fecc9562121e.svg',
+  logo_secondary: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/logo_secondary.svg',
   home_hero: 'https://pretzelwarranty.com/static/media/coming-soon-hero.e03b2446f7eb7d818b65.jpg',
   vehicle: 'https://pretzelwarranty.com/static/media/vehicle.e6d3b34795d552f82a3036001d6534f6.svg',
   home: 'https://pretzelwarranty.com/static/media/home.8bd01f5346f5b19d2f7b968226176cd6.svg',
@@ -27,5 +27,8 @@ export const images = {
   unicef: 'https://pretzelwarranty.com/static/media/unicef.85117a20092f26a850dd1839ffe26191.svg',
   directrelief: 'https://pretzelwarranty.com/static/media/direct-relief.ea075dd2cb2eec3c38c3e41802c7b29a.svg',
   allianz: 'https://pretzelwarranty.com/static/media/allianz-logo.dae3c737e69b5c74faab26f14502075c.svg',
-  aig: 'https://pretzelwarranty.com/static/media/aig-logo.7059844e42d863322b6fffbcfd4fbb80.svg'
+  aig: 'https://pretzelwarranty.com/static/media/aig-logo.7059844e42d863322b6fffbcfd4fbb80.svg',
+  plans_hero: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/plans_hero.svg',
+  plans_left: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/plans_left.svg',
+  plans_right: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/plans_right.svg'
 }

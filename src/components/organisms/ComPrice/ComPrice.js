@@ -12,8 +12,8 @@ export default function ComPrice(props) {
 
   return (
     <div className='relative'>
-      <Background image={images.beforeIcon} />
-      <Background image={images.afterIcon} className='right-0 bottom-0' />
+      <Background image={images.beforeIcon} alt='background left' />
+      <Background image={images.afterIcon} className='right-0 bottom-0' alt='background right' />
       <div className={styles.wrap}>
         <div className={styles.heading}>
           <RichText
