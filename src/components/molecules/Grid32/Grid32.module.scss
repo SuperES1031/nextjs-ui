@@ -1,0 +1,19 @@
+.wrap {
+  @apply flex flex-wrap justify-center text-center;
+
+  & li {
+    @apply md:w-1/2 lg:w-1/3 py-8;
+
+    & img {
+      @apply m-auto;
+    }
+
+    & .subheading {
+      @apply text-body font-bold py-4;
+    }
+
+    & .text {
+      @apply text-body max-w-[260px] m-auto;
+    }
+  }
+}

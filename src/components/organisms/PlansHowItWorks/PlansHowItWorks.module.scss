@@ -1,0 +1,15 @@
+.section {
+  @apply bg-[#F5F4FA];
+
+  & .wrap {
+    @apply container m-auto px-6 text-center py-20;
+
+    & .heading {
+      @apply py-10;
+
+      & h2 {
+        @apply text-4xl md:text-head font-bold text-[#1f1a3d] tracking-normal max-w-screen-lg m-auto;
+      }
+    }
+  }
+}

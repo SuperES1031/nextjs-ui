@@ -1,6 +1,9 @@
 import Space from "@components/atoms/Space";
 import Layout from "@components/common/Layout";
+import TextHeading from "@components/molecules/TextHeading";
 import AboutHero from "@components/organisms/AboutHero";
+import PlansHowItWorks from "@components/organisms/PlansHowItWorks";
+import WhatYouSee from "@components/organisms/WhatYouSee";
 
 export default function Plans() {
   const hero = {
@@ -19,6 +22,8 @@ export default function Plans() {
     <Layout>
       <Space />
       <AboutHero text={hero.text} button={hero.button} image={hero.image} />
+      <PlansHowItWorks />
+      <WhatYouSee />
     </Layout>
   )
 }
