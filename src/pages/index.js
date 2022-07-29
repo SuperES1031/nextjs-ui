@@ -98,8 +98,8 @@ export default function Home() {
       }
     ],
     {
-      beforeIcon: "combefore",
-      afterIcon: "comafter"
+      beforeIcon: "work_left",
+      afterIcon: "work_right"
     }
   ]
 

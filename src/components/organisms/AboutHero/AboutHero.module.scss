@@ -3,7 +3,7 @@
 }
 
 .wrap {
-  @apply container m-auto;
+  @apply container m-auto pb-10 px-3 md:pb-14;
 
   & .heading {
     @apply pt-20;

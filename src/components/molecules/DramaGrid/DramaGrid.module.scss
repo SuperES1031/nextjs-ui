@@ -7,22 +7,22 @@
 
   & li:first-child::before {
     @apply content-[''] h-[50px] right-[20px] top-[-30px] w-[175px] md:absolute ml-[42%] z-10 block bg-no-repeat;
-    background: url("https://pretzelwarranty.com/static/media/tip1.e1b649b48004ae54c2c0.svg");
+    background: url("https://elkcreekfirepits.com/wp-content/uploads/2022/07/robo_calling_icon.svg");
   }
 
   & li:nth-child(2)::before {
     @apply content-[''] h-[100px] right-[100px] top-[-70px] md:top-[-90px] w-[150px] md:absolute m-auto z-10 block bg-no-repeat;
-    background: url("https://pretzelwarranty.com/static/media/tip2.64af812f05f4b32e9f78.svg");
+    background: url("https://elkcreekfirepits.com/wp-content/uploads/2022/07/scary_letter_icon.svg");
   }
 
   & li:nth-child(3)::before {
     @apply content-[''] h-[120px] right-[170px] top-[-70px] w-[145px] md:absolute m-auto z-10 block bg-no-repeat mb-[-35px] md:mb-0;
-    background: url("https://pretzelwarranty.com/static/media/tip3.b20ec8773d65110d3d60.svg");
+    background: url("https://elkcreekfirepits.com/wp-content/uploads/2022/07/claim_icon.svg");
   }
 
   & li:last-child::before {
     @apply content-[''] h-[68px] right-[160px] top-[-50px] w-[218px] md:absolute z-10 block bg-no-repeat;
-    background: url("https://pretzelwarranty.com/static/media/tip4.80b3fc9caea92ec33bd9.svg");
+    background: url("https://elkcreekfirepits.com/wp-content/uploads/2022/07/cancel_icon.svg");
   }
 }
 

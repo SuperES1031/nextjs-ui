@@ -9,7 +9,7 @@ export default function HowItWorks(props) {
   const images = props.data[2]
   return (
     <div className='relative'>
-      <Background image={images.beforeIcon} className='left-[-200px]' />
+      <Background image={images.beforeIcon} className='' />
       <Background image={images.afterIcon} className='right-0 bottom-0' />
       <div className={styles.wrap}>
         <div className={styles.heading}>
