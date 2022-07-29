@@ -8,6 +8,8 @@ export const images = {
   phone: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/phone.svg',
   combefore: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/combefore.svg',
   comafter: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/comafter.svg',
+  pret_app: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/pret_app.png',
+  pret_app1: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/pret_app1.svg',
   flat_low_rates: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/flat_low_rates.svg',
   quick_easy_payments: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/quick_easy_payments.svg',
   unexpected_expenses: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/unexpected_expenses.svg',

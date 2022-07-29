@@ -1,3 +1,4 @@
+import Image from '@components/atoms/Image';
 import styles from './AppSection.module.scss';
 
 export default function AppSection() {
@@ -6,6 +7,7 @@ export default function AppSection() {
       <div className={styles.wrap}>
         <h2 className={styles.heading}>Watch the Pretzel app do its thing</h2>
         <div className={styles.imgWrap}>
+          <Image src='pret_app1' alt='app image' />
         </div>
       </div>
     </div>
