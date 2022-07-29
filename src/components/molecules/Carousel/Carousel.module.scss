@@ -1,0 +1,23 @@
+.carousel {
+  & .prev {
+    @apply left-0 w-[35px] md:w-[56px] h-[35px] md:h-[56px] rounded-[50%] bg-red-100 z-10 focus:outline-none hover:bg-red-100;
+    box-shadow: 0px 30px 44px rgba(0, 0, 0, 0.1);
+  }
+
+  & .custom {
+    display: none;
+  }
+
+  & .prev::before {
+    display: none;
+  }
+
+  & .next {
+    @apply right-0 w-[35px] md:w-[56px] h-[35px] md:h-[56px] rounded-[50%] bg-red-100 z-10 focus:outline-none hover:bg-red-100;
+    box-shadow: 0px 30px 44px rgba(0, 0, 0, 0.1);
+  }
+
+  & .next::before {
+    display: none;
+  }
+}

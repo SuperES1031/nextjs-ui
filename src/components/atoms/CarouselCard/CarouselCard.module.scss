@@ -1,0 +1,16 @@
+.wrap {
+  @apply my-8 md:my-16 cursor-pointer mx-3 md:mx-5 text-left rounded-[10px] md:rounded-[20px] bg-white py-10 px-5 md:px-10 hover:scale-[1.04] ease-in duration-300;
+  box-shadow: 0px 14px 20px rgba(68, 56, 142, 0.1);
+
+  & .text {
+    @apply text-body text-[#1F1A3D];
+  }
+
+  & .name {
+    @apply text-body text-[#1F1A3D] font-bold py-4;
+  }
+
+  & svg {
+    @apply w-[110px];
+  }
+}
