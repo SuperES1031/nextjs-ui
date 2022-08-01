@@ -48,4 +48,12 @@ export const images = {
   cover_heart: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/cover_heart.svg',
   instant_quote: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/instant_quote.svg',
   no_drama: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/no_drama.svg',
+  about_hero: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/about_hero.svg',
+  offering_plans: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/offering_plans.svg',
+  protect_budget: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/protect_budget.svg',
+  carousel_left: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/carousel_left.svg',
+  carousel_right: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/carousel_right.svg',
+  carousel_middle: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/carousel_middle.svg',
+  deal_left: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/deal_left.svg',
+  deal_right: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/deal_right.svg',
 }

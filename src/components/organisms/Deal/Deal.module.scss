@@ -1,0 +1,15 @@
+.root {
+  @apply py-10 relative;
+
+  & .wrap {
+    @apply py-8 md:py-20;
+
+    & .head {
+      @apply py-8 md:py-20 max-w-[1150px] m-auto;
+    }
+
+    & .body {
+      @apply py-8 md:py-20 max-w-[1450px] m-auto;
+    }
+  }
+}

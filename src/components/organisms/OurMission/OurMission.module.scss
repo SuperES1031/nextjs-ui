@@ -1,0 +1,29 @@
+.root {
+  @apply bg-[#F5F4FA] py-20;
+
+  & .wrap {
+    @apply max-w-[1400px] m-auto px-6;
+
+    & .heading {
+      @apply max-w-[1200px] m-auto py-10 md:py-20;
+    }
+
+    & .body {
+      & li {
+        @apply py-4 md:py-10;
+
+        & p {
+          @apply max-w-[330px] m-auto;
+        }
+
+        & img {
+          @apply h-[160px] md:h-auto;
+        }
+      }
+    }
+
+    & .footer {
+      @apply py-8 md:py-14;
+    }
+  }
+}

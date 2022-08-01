@@ -1,3 +1,4 @@
+import Background from '@components/atoms/Background'
 import Carousel from '@components/molecules/Carousel'
 import styles from './Testimonial.module.scss'
 
@@ -23,7 +24,10 @@ export default function Testimonial() {
   ]
 
   return (
-    <div>
+    <div className='relative'>
+      <Background image='carousel_left' className='top-1/4' />
+      <Background image='carousel_middle' className='left-[10%] md:left-[40%] top-[7%]' />
+      <Background image='carousel_right' className='right-0 bottom-0' />
       <div className={styles.wrap}>
         <div className={styles.heading}>
           <h2 className={styles.title}>{text.heading}</h2>

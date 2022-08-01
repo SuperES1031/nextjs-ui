@@ -7,7 +7,7 @@
 }
 
 .subheading {
-  @apply font-bold py-2  leading-7;
+  @apply font-bold py-2  leading-7 max-w-[280px] m-auto px-3;
 }
 
 .text {

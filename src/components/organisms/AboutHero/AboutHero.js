@@ -20,11 +20,13 @@ export default function AboutHero(props) {
         <div className={styles.body}>
           <Image src={image} alt='plans hero' />
         </div>
-        <div className={styles.footer}>
-          <Link href={button.link}>
-            <a className='btn'>{button.text}</a>
-          </Link>
-        </div>
+        {button?.link && (
+          <div className={styles.footer}>
+            <Link href={button.link}>
+              <a className='btn'>{button.text}</a>
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   )
