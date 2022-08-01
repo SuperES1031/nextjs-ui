@@ -6,6 +6,7 @@ import TextHeading from "@components/molecules/TextHeading";
 import AboutHero from "@components/organisms/AboutHero";
 import PlansHowItWorks from "@components/organisms/PlansHowItWorks";
 import WhatYouSee from "@components/organisms/WhatYouSee";
+import WhyPretzel from "@components/organisms/WhyPretzel";
 
 export default function Plans() {
   const hero = {
@@ -28,6 +29,7 @@ export default function Plans() {
       <WhatYouSee />
       <TextButton />
       <ChoosePretzel />
+      <WhyPretzel />
     </Layout>
   )
 }

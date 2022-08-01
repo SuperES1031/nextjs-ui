@@ -19,18 +19,18 @@ export default function CompareChart() {
           </li>
           <li className='m-auto'>
             <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25.2727 2L9.27273 18L2 10.7273" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25.2727 2L9.27273 18L2 10.7273" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </li>
           <li className='m-auto'>
             <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25.2727 2L9.27273 18L2 10.7273" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25.2727 2L9.27273 18L2 10.7273" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </li>
           <li className='m-auto'>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2 2L18 18" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M18 2L2 18" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M2 2L18 18" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18 2L2 18" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
 
           </li>
@@ -39,19 +39,19 @@ export default function CompareChart() {
           <li>Protects appliances</li>
           <li className='m-auto'>
             <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25.2727 2L9.27273 18L2 10.7273" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25.2727 2L9.27273 18L2 10.7273" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </li>
           <li className='m-auto'>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2 2L18 18" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M18 2L2 18" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M2 2L18 18" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18 2L2 18" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
 
           </li>
           <li className='m-auto'>
             <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25.2727 2L9.27273 18L2 10.7273" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25.2727 2L9.27273 18L2 10.7273" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </li>
         </ul>
@@ -59,19 +59,19 @@ export default function CompareChart() {
           <li>Works for you</li>
           <li className='m-auto'>
             <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M25.2727 2L9.27273 18L2 10.7273" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25.2727 2L9.27273 18L2 10.7273" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </li>
           <li className='m-auto'>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2 2L18 18" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M18 2L2 18" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M2 2L18 18" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18 2L2 18" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </li>
           <li className='m-auto'>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2 2L18 18" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M18 2L2 18" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M2 2L18 18" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M18 2L2 18" stroke="white" strokeWidth="4" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </li>
         </ul>

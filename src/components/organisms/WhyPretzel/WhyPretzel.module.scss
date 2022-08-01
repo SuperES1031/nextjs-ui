@@ -1,0 +1,27 @@
+.root {
+  @apply bg-[#F5F4FA];
+
+  & .wrap {
+    @apply max-w-screen-xl m-auto py-20;
+
+    & .head {
+      @apply md:py-10;
+    }
+
+    & .body {
+      @apply md:py-10;
+
+      & li {
+        @apply py-4;
+
+        & img {
+          @apply h-[142px];
+        }
+      }
+    }
+
+    & .footer {
+      @apply py-10 m-auto text-center;
+    }
+  }
+}

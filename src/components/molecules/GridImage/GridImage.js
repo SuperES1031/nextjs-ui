@@ -11,8 +11,8 @@ export default function GridImage(props) {
     <div>
       <ul className={cn(
         styles.wrap,
+        items ? Grid(items.length) : "",
         classname,
-        items ? Grid(items.length) : ""
       )}>
         {items && items.map((item, index) => (
           <li key={index} className=''>
@@ -21,6 +21,9 @@ export default function GridImage(props) {
             )}
             {item.subheading && (
               <p className={styles.subheading} >{item.subheading}</p>
+            )}
+            {item.text && (
+              <p className={styles.text} >{item.text}</p>
             )}
           </li>
         ))}
