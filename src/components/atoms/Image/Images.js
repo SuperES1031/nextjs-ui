@@ -39,4 +39,7 @@ export const images = {
   manage_account: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/manage_account.svg',
   file_claims: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/file_claims.svg',
   live_happier: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/live_happier.svg',
+  plan_basic: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/plan_basic.svg',
+  perk: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/perk.svg',
+  add_on: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/add_on.svg',
 }

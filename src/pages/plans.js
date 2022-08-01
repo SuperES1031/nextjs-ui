@@ -1,5 +1,6 @@
 import Space from "@components/atoms/Space";
 import Layout from "@components/common/Layout";
+import TextButton from "@components/molecules/TextButton";
 import TextHeading from "@components/molecules/TextHeading";
 import AboutHero from "@components/organisms/AboutHero";
 import PlansHowItWorks from "@components/organisms/PlansHowItWorks";
@@ -24,6 +25,7 @@ export default function Plans() {
       <AboutHero text={hero.text} button={hero.button} image={hero.image} />
       <PlansHowItWorks />
       <WhatYouSee />
+      <TextButton />
     </Layout>
   )
 }

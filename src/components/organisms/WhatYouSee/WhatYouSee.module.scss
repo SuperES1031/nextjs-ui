@@ -1,0 +1,79 @@
+.root {
+  @apply pt-10 md:pt-40;
+
+  & .wrap {
+    @apply px-6 m-auto py-20 max-w-[1440px];
+
+    & .body {
+      @apply md:pt-20;
+
+      & .desktop {
+        @apply hidden md:block;
+      }
+
+      & .mobile {
+        @apply md:hidden;
+      }
+
+      & .mobile > div > div {
+        @apply py-10;
+      }
+
+      & .mbutton {
+        @apply my-8 text-center;
+
+        & p {
+          @apply pb-5;
+        }
+      }
+
+      & .first {
+        @apply grid md:grid-cols-3;
+
+        & img {
+          @apply m-auto;
+        }
+
+        & .title {
+          @apply text-center text-[#EE2E64] text-3xl md:text-5xl font-bold md:py-5;
+        }
+      }
+
+      & .second {
+        @apply grid md:grid-cols-3;
+      }
+
+      & .third {
+        @apply grid md:grid-cols-3;
+      }
+
+      & .fourth {
+        @apply grid md:grid-cols-3;
+      }
+
+      & .bottons {
+        @apply grid md:grid-cols-3 py-8 text-center;
+
+        & p {
+          @apply py-5 max-w-[100%];
+        }
+      }
+
+      & .bold {
+        @apply text-lg md:text-body font-bold text-[#1F1A3D] py-5 md:py-10;
+
+        & p {
+          @apply leading-6;
+        }
+      }
+
+      & p {
+        @apply text-lg md:text-body  text-[#1F1A3D] leading-6 md:leading-9 px-2 xl:px-20;
+      }
+
+      & li {
+        @apply text-lg md:text-body  text-[#1F1A3D] leading-6 md:leading-9 px-2 xl:px-20;
+      }
+    }
+  }
+}
