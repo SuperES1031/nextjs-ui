@@ -1,0 +1,15 @@
+.wrap {
+  @apply text-center;
+
+  & .heading {
+    @apply text-3xl md:text-[48px] font-bold;
+
+    & h2 {
+      @apply leading-[1.5];
+    }
+  }
+
+  & .body {
+    @apply text-[#676477] text-[18px] md:text-[24px] font-bold pt-4;
+  }
+}

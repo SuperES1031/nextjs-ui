@@ -1,0 +1,21 @@
+.wrap {
+  @apply rounded-[10px] text-white py-10 md:py-20 px-3 md:px-6 xl:px-20 2xl:px-40;
+  background: linear-gradient(90deg, #c8134f 0%, #ee5386 100%);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
+
+  & .heading {
+    @apply text-3xl md:text-4xl lg:text-[48px] font-bold text-center py-10 leading-[1.1];
+  }
+
+  & ul {
+    @apply grid grid-cols-4;
+
+    & li {
+      @apply py-5 text-sm md:text-body lg:text-[24px] font-semibold;
+    }
+  }
+
+  & ul.title li {
+    @apply text-xs md:text-lg lg:text-body font-semibold text-left;
+  }
+}

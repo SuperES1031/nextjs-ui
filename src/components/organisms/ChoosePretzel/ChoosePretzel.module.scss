@@ -1,0 +1,13 @@
+.wrap {
+  @apply container m-auto px-3 py-10 md:py-40;
+
+  & .head {
+    @apply py-10 max-w-7xl m-auto;
+  }
+
+  & .body {
+    @apply py-10;
+  }
+}
+
+/* Rectangle 8 */

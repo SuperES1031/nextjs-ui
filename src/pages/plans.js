@@ -1,5 +1,6 @@
 import Space from "@components/atoms/Space";
 import Layout from "@components/common/Layout";
+import ChoosePretzel from "@components/organisms/ChoosePretzel";
 import TextButton from "@components/molecules/TextButton";
 import TextHeading from "@components/molecules/TextHeading";
 import AboutHero from "@components/organisms/AboutHero";
@@ -26,6 +27,7 @@ export default function Plans() {
       <PlansHowItWorks />
       <WhatYouSee />
       <TextButton />
+      <ChoosePretzel />
     </Layout>
   )
 }
