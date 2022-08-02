@@ -14,9 +14,52 @@
         @apply text-4xl md:text-head font-bold text-white tracking-normal;
       }
     }
+
     & .body {
+      @apply px-6 md:px-20 md:py-10;
+
       & .bodyWrap {
-        @apply text-white grid grid-cols-3;
+        @apply text-white grid lg:grid-cols-3 max-w-sm m-auto lg:max-w-full;
+
+        & .item {
+          @apply py-4;
+        }
+
+        & .first {
+          @apply py-4;
+        }
+
+        & .second {
+          @apply pl-20 md:pl-28 relative my-4;
+
+          & .child {
+            @apply py-8 relative mt-4;
+          }
+
+          & .child::before {
+            content: "";
+            background: url("https://elkcreekfirepits.com/wp-content/uploads/2022/07/line1.svg");
+            @apply absolute left-0 w-3 h-full bg-no-repeat bg-contain top-0;
+          }
+        }
+
+        & .second::before {
+          content: "";
+          background: url("https://elkcreekfirepits.com/wp-content/uploads/2022/07/line2.svg");
+          @apply absolute left-0 w-3 h-full bg-no-repeat bg-contain top-0;
+        }
+
+        & .title {
+          @apply text-4xl md:text-[64px] font-bold;
+        }
+
+        & .subtitle {
+          @apply text-lg md:text-2xl font-bold pt-2 md:pt-6;
+        }
+
+        & .text {
+          @apply text-lg md:text-2xl font-light pr-4;
+        }
       }
     }
   }
