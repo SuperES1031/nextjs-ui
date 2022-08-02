@@ -20,7 +20,7 @@ export default function PortalFooter() {
     },
     {
       text: 'Join the Team',
-      link: '/',
+      link: '/join-the-team',
     },
     {
       text: 'Transparency',

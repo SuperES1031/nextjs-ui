@@ -56,4 +56,5 @@ export const images = {
   carousel_middle: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/carousel_middle.svg',
   deal_left: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/deal_left.svg',
   deal_right: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/deal_right.svg',
+  accordion_icon1: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/accordion_icon1.svg',
 }

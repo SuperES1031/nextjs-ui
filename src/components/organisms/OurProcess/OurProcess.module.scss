@@ -1,0 +1,18 @@
+.root {
+  @apply pt-20 md:pt-40 px-4;
+
+  & .wrap {
+    @apply max-w-7xl m-auto py-10;
+    background: linear-gradient(90deg, #c8134f 0%, #ee5386 100%);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+
+    & .heading {
+      @apply py-10 text-center;
+
+      & h2 {
+        @apply text-4xl md:text-head font-bold text-white tracking-normal;
+      }
+    }
+  }
+}

@@ -41,3 +41,13 @@
   display: flex !important;
   align-items: center;
 }
+
+.showDescription {
+  height: 100px !important;
+  transform: scaleY(1) !important;
+}
+
+.ariaExpanded svg {
+  transform: rotate(90deg) !important;
+  transition: all 0.4s;
+}
