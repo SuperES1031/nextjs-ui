@@ -30,7 +30,7 @@
         }
 
         & .second {
-          @apply pl-20 md:pl-28 relative my-4;
+          @apply pl-20 md:pl-28 relative my-4 py-4;
 
           & .child {
             @apply py-8 relative mt-4;

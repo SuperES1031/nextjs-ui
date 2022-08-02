@@ -3,7 +3,7 @@ import styles from './Accordion.module.scss'
 import AccordionItem from '@components/atoms/AccordionItem'
 
 export default function Accordion(props) {
-  const [activeIndex, setActiveIndex] = useState(null)
+  const [activeIndex, setActiveIndex] = useState(props.open)
 
   const accordionData = props.accordion
   const icon = props.icon

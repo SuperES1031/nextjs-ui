@@ -2,7 +2,7 @@
   @apply m-auto mb-6 relative;
 
   & .head {
-    @apply flex items-center py-4 md:py-6 px-2 md:px-8 bg-[#F5F4FA] rounded-[10px] text-lg md:text-2xl font-bold cursor-pointer text-[#1F1A3D] pr-8;
+    @apply flex items-center py-4 md:py-8 px-2 md:px-8 bg-[#F5F4FA] rounded-[10px] text-lg md:text-2xl font-bold cursor-pointer text-[#1F1A3D] pr-8;
 
     & img {
       @apply pr-4 md:pr-8 w-[40px] md:w-auto;
@@ -15,10 +15,14 @@
   }
 
   & .body {
-    @apply text-[#676477] pl-[49px] pr-4 md:px-[106px] my-4 overflow-hidden;
+    @apply text-[#676477] text-lg md:text-2xl pl-[49px] pr-4 md:px-[106px] my-4 overflow-hidden;
     transform: scaleY(0);
     transform-origin: top;
     transition: all 0.4s ease;
     height: 0;
+
+    & p {
+      @apply pb-10;
+    }
   }
 }
