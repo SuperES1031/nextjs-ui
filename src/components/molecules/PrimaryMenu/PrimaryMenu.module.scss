@@ -19,11 +19,12 @@
 }
 
 .menu {
-  @apply inline-flex items-center text-body font-light;
+  @apply inline-flex items-center text-body;
+  font-weight: 400;
 }
 
 .login {
-  @apply inline-flex items-center text-body font-medium text-headColor;
+  @apply inline-flex items-center text-body font-semibold text-headColor;
 }
 
 .active {
@@ -32,6 +33,7 @@
 
 .primaryColor {
   @apply text-white;
+  font-weight: 300 !important;
 }
 
 .secondaryColor {
@@ -79,5 +81,5 @@
 }
 
 .mobileMenu {
-  @apply inline-flex items-center text-body font-light hover:underline;
+  @apply inline-flex items-center text-body font-medium hover:underline;
 }
