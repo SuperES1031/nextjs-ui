@@ -16,8 +16,9 @@ export default function Backed() {
       image: "aig"
     }
   ]
+
   return (
-    <div>
+    <div className="bg-[#F5F4FA]">
       <div className={styles.wrap}>
         <div className={styles.heading}>
           <TextHeading

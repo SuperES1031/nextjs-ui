@@ -2,6 +2,7 @@ import GridImage5 from '@components/molecules/GridImage5'
 import TextHeading from '@components/molecules/TextHeading'
 import Link from 'next/link'
 import styles from './PretzelMean.module.scss'
+
 export default function PretzelMean() {
   const text = {
     heading: "Pretzel means coverage with a heart",
@@ -21,7 +22,7 @@ export default function PretzelMean() {
     <div>
       <div className={styles.wrap}>
         <div className={styles.heading}>
-          <h2 className={styles.title}>{text.heading}</h2>
+          <TextHeading heading={text.heading} />
           <p className={styles.text}>{text.text}</p>
           <TextHeading subheading={text.subheading} />
         </div>

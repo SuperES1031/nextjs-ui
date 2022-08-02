@@ -5,6 +5,10 @@
     @apply relative my-12 md:my-10;
   }
 
+  & li:hover::before {
+    @apply animate-waving-hand;
+  }
+
   & li:first-child::before {
     @apply content-[''] h-[50px] right-[20px] top-[-30px] w-[175px] md:absolute ml-[42%] z-10 block bg-no-repeat;
     background: url("https://elkcreekfirepits.com/wp-content/uploads/2022/07/robo_calling_icon.svg");

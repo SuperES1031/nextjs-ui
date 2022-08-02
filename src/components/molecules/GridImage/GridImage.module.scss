@@ -3,7 +3,11 @@
 }
 
 .image {
-  @apply w-auto m-auto;
+  @apply w-auto m-auto duration-500;
+}
+
+.image:hover {
+  @apply scale-105 duration-500;
 }
 
 .subheading {

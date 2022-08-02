@@ -4,8 +4,12 @@
   & li {
     @apply w-1/2 md:w-1/3 lg:w-1/5;
   }
-}
 
-.image {
-  @apply w-auto m-auto;
+  & .image {
+    @apply w-auto m-auto duration-500;
+  }
+
+  & .image:hover {
+    @apply scale-105 duration-500;
+  }
 }

@@ -14,7 +14,6 @@ import Testimonial from "@components/organisms/Testimonial";
 // }
 
 export default function Home() {
-
   const hero = {
     image: 'home_hero',
     heading: 'Making life better through better protection.',
@@ -124,12 +123,8 @@ export default function Home() {
       <HowItWorks data={works} />
       <Drama />
       <PretzelMean />
-      <div className="bg-[#F5F4FA]">
-        <Backed />
-      </div>
-      <div>
-        <Testimonial />
-      </div>
+      <Backed />
+      <Testimonial />
     </Layout>
   )
 }

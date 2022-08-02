@@ -1,5 +1,6 @@
 import Background from '@components/atoms/Background'
 import Carousel from '@components/molecules/Carousel'
+import TextHeading from '@components/molecules/TextHeading'
 import styles from './Testimonial.module.scss'
 
 export default function Testimonial() {
@@ -26,12 +27,11 @@ export default function Testimonial() {
   return (
     <div className='relative'>
       <Background image='carousel_left' className='top-1/4' />
-      <Background image='carousel_middle' className='left-[10%] md:left-[40%] top-[7%]' />
+      <Background image='carousel_middle' className='left-[10%] md:left-[40%] top-[7%] animate-bounce' />
       <Background image='carousel_right' className='right-0 bottom-0' />
       <div className={styles.wrap}>
         <div className={styles.heading}>
-          <h2 className={styles.title}>{text.heading}</h2>
-          <p className={styles.text}>{text.subheading}</p>
+          <TextHeading heading={text.heading} subheading={text.subheading} />
         </div>
         <div className={styles.body}>
           <Carousel testimonial={testimonial} />

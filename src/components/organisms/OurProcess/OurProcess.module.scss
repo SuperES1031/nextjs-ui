@@ -14,5 +14,10 @@
         @apply text-4xl md:text-head font-bold text-white tracking-normal;
       }
     }
+    & .body {
+      & .bodyWrap {
+        @apply text-white grid grid-cols-3;
+      }
+    }
   }
 }

@@ -107,7 +107,7 @@ export default function PrimaryMenu() {
                   </a>
                 </Link>
                 <Link href='/'>
-                  <a className='btn'>
+                  <a className='btn_quote'>
                     Instant quote
                   </a>
                 </Link>

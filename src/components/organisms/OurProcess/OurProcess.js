@@ -42,7 +42,44 @@ export default function OurProcess() {
           <h2>Our process</h2>
         </div>
         <div className={styles.body}>
-
+          <div className={styles.bodyWrap}>
+            <div>
+              <div>
+                <p className={styles.title}>01</p>
+                <p className={styles.subtitle}>Review</p>
+                <p className={styles.text}>Lorem Ipsum is simply dummy text of the printing</p>
+              </div>
+              <div>
+                <p className={styles.title}>01</p>
+                <p className={styles.subtitle}>Review</p>
+                <p className={styles.text}>Lorem Ipsum is simply dummy text of the printing</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <p className={styles.title}>01</p>
+                <p className={styles.subtitle}>Review</p>
+                <p className={styles.text}>Lorem Ipsum is simply dummy text of the printing</p>
+              </div>
+              <div>
+                <p className={styles.title}>01</p>
+                <p className={styles.subtitle}>Review</p>
+                <p className={styles.text}>Lorem Ipsum is simply dummy text of the printing</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <p className={styles.title}>01</p>
+                <p className={styles.subtitle}>Review</p>
+                <p className={styles.text}>Lorem Ipsum is simply dummy text of the printing</p>
+              </div>
+              <div>
+                <p className={styles.title}>01</p>
+                <p className={styles.subtitle}>Review</p>
+                <p className={styles.text}>Lorem Ipsum is simply dummy text of the printing</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
