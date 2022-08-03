@@ -1,7 +1,7 @@
 import Space from "@components/atoms/Space";
 import Layout from "@components/common/Layout";
 
-export default function Plans() {
+export default function Terms() {
 
   return (
     <Layout>

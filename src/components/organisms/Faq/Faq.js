@@ -2,9 +2,9 @@ import Background from '@components/atoms/Background'
 import Accordion from '@components/molecules/Accordion'
 import GridImage from '@components/molecules/GridImage'
 import NATextHeading from '@components/molecules/NATextHeading'
-import styles from './FaqTop.module.scss'
+import styles from './Faq.module.scss'
 
-export default function FaqTop() {
+export default function Faq() {
   const text = {
     heading: "FAQ",
     subheading: "All your burning questions about our protection plans, answered at last."

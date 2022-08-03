@@ -2,7 +2,7 @@
   @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center;
 
   & li {
-    @apply py-4 duration-500;
+    @apply py-8 duration-500;
     pointer-events: auto;
   }
   & li:hover {
@@ -24,5 +24,5 @@
 }
 
 .price {
-  @apply text-[18px] md:text-body pt-6 text-[#51505C];
+  @apply text-[18px] md:text-body pt-6 md:pt-10 text-[#51505C];
 }

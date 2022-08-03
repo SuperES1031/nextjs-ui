@@ -1,0 +1,55 @@
+.root {
+  @apply relative;
+
+  & .wrap {
+    @apply container m-auto py-14 px-4;
+
+    & .head {
+      & .social {
+        @apply flex flex-wrap items-center justify-center py-8;
+
+        & a {
+          @apply px-2;
+        }
+      }
+    }
+
+    & .body {
+      @apply py-10 max-w-screen-lg m-auto;
+
+      & .button {
+        @apply mt-20 text-lg md:text-body;
+        background: #ea2667;
+        border-radius: 6px;
+        color: white;
+        border: 2px solid #ea2667;
+        padding: 10px 16px;
+        font-weight: 500;
+        transition-duration: 0.1s;
+      }
+
+      & .button:hover {
+        background: white;
+        border-radius: 6px;
+        color: #ea2667;
+        border: 2px solid #ea2667;
+      }
+    }
+  }
+
+  & .footer {
+    @apply bg-[#F5F4FA] py-20 md:py-36;
+
+    & .footerInner {
+      @apply max-w-[1280px] m-auto;
+
+      & li {
+        @apply max-w-[260px] m-auto;
+      }
+
+      & .cta {
+        @apply pt-10 md:pt-28 text-center;
+      }
+    }
+  }
+}

@@ -1,12 +1,12 @@
 import Space from "@components/atoms/Space";
 import Layout from "@components/common/Layout";
-import FaqTop from "@components/organisms/Faq";
+import ContactTop from "@components/organisms/ContactTop";
 
-export default function Faq() {
+export default function Contact() {
   return (
     <Layout>
       <Space />
-      <FaqTop />
+      <ContactTop />
     </Layout>
   )
 }

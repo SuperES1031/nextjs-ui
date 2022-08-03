@@ -36,7 +36,7 @@ export default function PortalFooter() {
     },
     {
       text: 'Contact Us',
-      link: '/contact-us',
+      link: '/contact',
     }
   ]
 

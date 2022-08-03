@@ -13,11 +13,11 @@
 }
 
 .cta {
+  @apply text-lg md:text-body py-2 md:py-2.5 px-4;
   background: #ea2667;
+  border: 2px solid #ea2667;
   border-radius: 6px;
   color: white;
-  font-size: 20px;
-  padding: 10px 16px;
   font-weight: 500;
   transition-duration: 0.1s;
 }
