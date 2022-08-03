@@ -47,7 +47,7 @@ export default function ContactTop() {
 
   return (
     <div className={styles.root}>
-      <Background image='plans_left' className='hidden md:block top-[30%]' alt='background left' />
+      <Background image='plans_left' className='hidden md:block top-[20%]' alt='background left' />
       <Background image='plans_right' className='hidden md:block right-0' alt='background right' />
       <div className={styles.wrap}>
         <div className={styles.head}>

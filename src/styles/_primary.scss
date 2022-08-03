@@ -92,3 +92,7 @@
   transform: none;
   visibility: visible;
 }
+
+.active svg {
+  transform: rotate(90deg);
+}

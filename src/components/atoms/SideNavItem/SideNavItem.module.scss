@@ -1,0 +1,30 @@
+.item {
+  & .subnav {
+    @apply h-6 overflow-hidden;
+  }
+
+  & .active {
+    @apply h-auto;
+  }
+
+  & .icon {
+    transition: all 0.3s;
+  }
+
+  & .activeLink {
+    @apply bg-[#F5F4FA];
+  }
+
+  & .rotate {
+    transform: rotate(90deg);
+    transition: all 0.3s;
+  }
+
+  & .nav_title {
+    @apply flex cursor-pointer justify-between bg-[#F5F4FA] font-bold md:py-6 lg:py-8 px-4 rounded-[10px] md:text-xl lg:text-2xl;
+  }
+
+  & .link {
+    @apply md:text-xl lg:text-2xl my-4 py-2 rounded-lg;
+  }
+}
