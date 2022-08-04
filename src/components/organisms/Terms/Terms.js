@@ -1,3 +1,4 @@
+import Background from '@components/atoms/Background'
 import SideNavItem from '@components/atoms/SideNavItem'
 import NATextHeading from '@components/molecules/NATextHeading'
 import styles from './Terms.module.scss'
@@ -82,6 +83,8 @@ export default function Terms() {
 
   return (
     <div className={styles.root}>
+      <Background image='plans_left' className='hidden md:block top-[50%]' alt='background left' />
+      <Background image='plans_right' className='hidden md:block right-0' alt='background right' />
       <div className={styles.wrap}>
         <div className={styles.head}>
           <NATextHeading heading={text.heading} subheading={text.subheading} />

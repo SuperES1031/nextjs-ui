@@ -1,0 +1,53 @@
+.root {
+  @apply relative;
+
+  & .wrap {
+    @apply py-10 md:py-28 px-10;
+
+    & .head {
+      @apply max-w-screen-xl m-auto;
+    }
+
+    & .body {
+      @apply max-w-screen-xl m-auto py-10 md:py-20;
+
+      & ul {
+        @apply grid md:grid-cols-2 lg:grid-cols-3 text-center;
+
+        & li {
+          @apply py-6 md:py-14;
+        }
+
+        & img {
+          @apply m-auto py-4 md:py-10;
+        }
+
+        & .subheading {
+          @apply text-2xl md:text-[28px] font-bold py-2 text-[#25122A];
+        }
+
+        & .text {
+          @apply text-base md:text-lg text-[#1F1A3D] pb-4 max-w-[310px] m-auto;
+        }
+
+        & a {
+          @apply text-lg md:text-xl font-bold text-[#E4255C];
+          width: fit-content;
+        }
+
+        & span::after {
+          content: "";
+          display: block;
+          width: 0;
+          height: 3px;
+          background: #e4255c;
+          transition: width 0.3s;
+        }
+
+        & a:hover span::after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

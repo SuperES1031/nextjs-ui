@@ -1,6 +1,7 @@
 import Image from '@components/atoms/Image';
 import Grid from '@functions/grid';
 import cn from 'classnames';
+import Link from 'next/link';
 import styles from './GridImage.module.scss';
 
 export default function GridImage(props) {
@@ -24,6 +25,11 @@ export default function GridImage(props) {
             )}
             {item.text && (
               <p className={styles.text} >{item.text}</p>
+            )}
+            {item.link && (
+              <Link href={item.link}>
+                <a> Learn More</a>
+              </Link>
             )}
           </li>
         ))}

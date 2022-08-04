@@ -61,4 +61,5 @@ export const images = {
   line1: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/line1.svg',
   line2: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/line2.svg',
   general: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/general.svg',
+  charity_logo: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/charity_logo.svg',
 }

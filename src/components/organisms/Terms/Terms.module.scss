@@ -1,8 +1,8 @@
 .root {
-  @apply relative py-20;
+  @apply relative;
 
   & .wrap {
-    @apply max-w-screen-2xl m-auto px-6;
+    @apply max-w-screen-2xl m-auto px-6 py-20;
 
     & .head {
       @apply max-w-screen-xl m-auto;
