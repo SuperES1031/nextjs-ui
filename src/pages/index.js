@@ -9,10 +9,6 @@ import PretzelMean from "@components/organisms/PretzelMean";
 import Backed from "@components/organisms/Backed";
 import Testimonial from "@components/organisms/Testimonial";
 
-// export async function getStaticProps() {
-
-// }
-
 export default function Home() {
   const hero = {
     image: 'home_hero',
@@ -108,7 +104,7 @@ export default function Home() {
         image={hero.image}
         heading={hero.heading}
         text={hero.text}
-        subheading={hero.text}
+        subheading={hero.subheading}
         button={hero.button}
         buttonlink={hero.buttonlink}
       />

@@ -3,7 +3,7 @@ import styles from './Hero.module.scss'
 import PropTypes from 'prop-types'
 import cn from 'classnames'
 
-export default function Hero({ image, heading, subheading, text, button, buttonlink }) {
+export default function Hero({ image, heading, subheading, text, button, buttonlink, classname }) {
 
   return (
     <div className='relative'>
@@ -17,10 +17,10 @@ export default function Hero({ image, heading, subheading, text, button, buttonl
           <h1 className={styles.heading}>{heading}</h1>
         )}
         {text && (
-          <p className={styles.text}>{text}</p>
+          <p className={cn(classname, styles.text)}>{text}</p>
         )}
         {subheading && (
-          <p className={styles.subheading}>{subheading}</p>
+          <p className={cn(styles.subheading, classname)}>{subheading}</p>
         )}
         <div className={styles.btn}>
           {button && (
@@ -38,5 +38,6 @@ Hero.propTypes = {
   subheading: PropTypes.string,
   text: PropTypes.string,
   button: PropTypes.string,
-  buttonlink: PropTypes.string
+  buttonlink: PropTypes.string,
+  classname: PropTypes.string
 }
