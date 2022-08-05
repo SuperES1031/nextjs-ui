@@ -1,5 +1,6 @@
 import Layout from "@components/common/Layout";
 import CarGraphic from "@components/organisms/CarGraphic";
+import Covered from "@components/organisms/Covered";
 import Hero from "@components/organisms/Hero";
 
 export default function Vehicle() {
@@ -23,6 +24,7 @@ export default function Vehicle() {
         classname='!text-2xl !font-bold !text-[#DBDBDB]'
       />
       <CarGraphic />
+      <Covered />
     </Layout>
   )
-}
+} 
