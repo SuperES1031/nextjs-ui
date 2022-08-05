@@ -1,0 +1,29 @@
+.root {
+  @apply relative;
+
+  & .wrap {
+    @apply py-20 md:py-32 px-4;
+
+    & .head {
+      @apply py-10 md:py-20 max-w-6xl m-auto;
+    }
+
+    & .body {
+      & li {
+        @apply py-4 max-w-7xl m-auto;
+      }
+
+      & img {
+        @apply h-[160px] md:h-auto;
+      }
+
+      & p {
+        @apply text-lg md:text-body max-w-[400px];
+      }
+    }
+
+    & .footer {
+      @apply py-10 md:py-20 max-w-4xl m-auto;
+    }
+  }
+}

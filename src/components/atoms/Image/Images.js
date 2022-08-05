@@ -69,4 +69,9 @@ export const images = {
   car_graphic: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/car_graphic.svg',
   graphic_left: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/graphic_left.svg',
   graphic_right: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/graphic_right.svg',
+  covered: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/covered.svg',
+  covered_mobile: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/covered_mobile.svg',
+  break_down: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/break_down.svg',
+  engine_parts: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/engine_parts.svg',
+  hike: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/hike.svg',
 }

@@ -2,10 +2,22 @@
   @apply relative;
 
   & .wrap {
-    @apply m-auto px-2 py-20 md:py-40 mt-[-100px] md:mt-[-200px];
+    @apply m-auto px-2 py-20 md:py-40 mt-[-100px] md:mt-[-200px] overflow-hidden;
 
     & img {
       @apply m-auto;
+      animation: mymove 3s;
+    }
+
+    @keyframes mymove {
+      0% {
+        margin-left: 100%;
+        transform: translateX(0%);
+      }
+      100% {
+        margin-left: 50%;
+        transform: translateX(-50%);
+      }
     }
   }
 }

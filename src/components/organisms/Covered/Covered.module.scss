@@ -1,0 +1,9 @@
+.wrap {
+  @apply bg-[#F5F4FA] pt-20 md:pt-32 px-2;
+  & .body {
+    @apply py-10 md:py-20;
+    & img {
+      @apply m-auto;
+    }
+  }
+}

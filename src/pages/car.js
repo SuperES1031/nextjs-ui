@@ -1,4 +1,5 @@
 import Layout from "@components/common/Layout";
+import Breakdown from "@components/organisms/Breakdown";
 import CarGraphic from "@components/organisms/CarGraphic";
 import Covered from "@components/organisms/Covered";
 import Hero from "@components/organisms/Hero";
@@ -25,6 +26,7 @@ export default function Vehicle() {
       />
       <CarGraphic />
       <Covered />
+      <Breakdown />
     </Layout>
   )
 } 
