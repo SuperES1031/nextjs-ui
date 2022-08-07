@@ -74,4 +74,13 @@ export const images = {
   break_down: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/break_down.svg',
   engine_parts: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/engine_parts.svg',
   hike: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/hike.svg',
+  engine: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/engine.png',
+  transmission: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/transmission.png',
+  cooling_system: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/cooling_system.png',
+  air_conditoring: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/air_conditoring.png',
+  drive_axle: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/drive_axle.png',
+  electorical_components: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/electorical_components.png',
+  brakes: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/brakes.png',
+  suspension: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/suspension.png',
+  steering: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/steering.png',
 }

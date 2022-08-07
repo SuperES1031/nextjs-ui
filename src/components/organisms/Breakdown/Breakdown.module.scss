@@ -9,8 +9,10 @@
     }
 
     & .body {
+      @apply max-w-[1500px] m-auto;
+
       & li {
-        @apply py-4 max-w-7xl m-auto;
+        @apply py-4;
       }
 
       & img {
