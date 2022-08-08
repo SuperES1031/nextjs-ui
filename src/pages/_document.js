@@ -5,6 +5,7 @@ export default function Document() {
     <Html className='scroll-smooth'>
       <Head>
         <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=xgtu0jhxgpxumj1ksbpsya" async={true}></script>
+        <link rel='shortcut icon' type='image/x-icon' href='./src/../public/favicon.ico' />
       </Head>
       <body>
         <Main />

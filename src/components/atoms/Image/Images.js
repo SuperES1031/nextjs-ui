@@ -51,6 +51,8 @@ export const images = {
   about_hero: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/about_hero.png',
   offering_plans: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/offering_plans.svg',
   protect_budget: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/protect_budget.svg',
+  offering_plans_1: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/offering_plans.png',
+  protect_budget_1: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/protect_budget.png',
   carousel_left: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/carousel_left.svg',
   carousel_right: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/carousel_right.svg',
   carousel_middle: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/carousel_middle.svg',
@@ -130,4 +132,7 @@ export const images = {
   water_damage: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/water_damage.png',
   accessories: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/accessories.png',
   supply_replacement: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/supply_replacement.png',
+  home_1: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/home_1.png',
+  phone_1: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/phone_1.png',
+  electronics_1: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/electronics_1.png',
 }

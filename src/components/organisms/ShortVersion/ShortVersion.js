@@ -41,7 +41,7 @@ export default function ShortVersion() {
       price: "79.99"
     },
     {
-      image: "home",
+      image: "home_1",
       subheading: "Your Home",
       text: "Cover your dishwasher, electrical, plumbing, and other stuff.",
       cta: "See Plans",
@@ -49,7 +49,7 @@ export default function ShortVersion() {
       price: "39.99"
     },
     {
-      image: "electronics",
+      image: "electronics_1",
       subheading: "Your Electronics",
       text: "From breaks to bugs, protect your laptop, gaming systems, and other bits and bytes.",
       cta: "See Plans",
@@ -57,7 +57,7 @@ export default function ShortVersion() {
       price: "24.99"
     },
     {
-      image: "phone",
+      image: "phone_1",
       subheading: "Your Phone",
       text: "Your smartphone is essential. Cover it for just a few dollars a month.",
       cta: "See Plans",

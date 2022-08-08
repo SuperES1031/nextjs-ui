@@ -18,15 +18,15 @@ export default function OurMission() {
       subheading: "Actually paying eligible claims instead of just looking for excuses not to",
     },
     {
-      image: "offering_plans",
+      image: "offering_plans_1",
       subheading: "Offering extended protection plans without the ick factor",
     },
     {
-      image: "protect_budget",
+      image: "protect_budget_1",
       subheading: "Protecting your budget from unexpected expenses",
     },
     {
-      image: "protect_budget",
+      image: "protect_budget_1",
       subheading: "Giving money to good causes",
     }
   ]

@@ -1,5 +1,6 @@
 import Space from "@components/atoms/Space";
 import Layout from "@components/common/Layout";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -11,9 +12,11 @@ export default function Page() {
           Page Not Found
         </div>
         <div className="my-5 mt-14">
-          <a className="btn" href="/" rel='noreferrer'>
-            Go Home
-          </a>
+          <Link href="/">
+            <a className="btn">
+              Go Home
+            </a>
+          </Link>
         </div>
       </div>
     </Layout>
