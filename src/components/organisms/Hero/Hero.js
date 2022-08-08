@@ -12,7 +12,7 @@ export default function Hero({ image, heading, subheading, text, button, buttonl
         className="w-screen h-[75vh] md:h-screen object-cover"
         alt="home hero"
       />
-      <div className={cn(styles.wrap, 'center')}>
+      <div className={cn(styles.wrap, classname, 'center')}>
         {heading && (
           <h1 className={styles.heading}>{heading}</h1>
         )}

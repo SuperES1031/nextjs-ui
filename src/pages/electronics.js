@@ -13,42 +13,57 @@ import Taste from "@components/organisms/Taste";
 import Testimonial from "@components/organisms/Testimonial";
 import Link from "next/link";
 
-export default function Homes() {
+export default function Electronics() {
   const hero = {
-    image: 'home_product_hero',
-    heading: 'Home warranties that don’t suck (or make a weird clanging noise).',
-    text: 'We protect your appliances and home systems. Simple as that.',
+    image: 'electronics_product_hero',
+    heading: 'Your most loved and used devices, covered in a click.',
+    text: 'Simple sign up. Simple claims. Simply Pretzel.',
     button: '60 Second Quote',
     buttonlink: '/'
   }
 
   const coveredText = {
     heading: "A few clicks and you’re covered.",
-    subheading: "Your best bud on wheels can be protected today."
+    subheading: "No listing out devices. No nitpicking. We cover it all with one awesome plan at one awesome affordable price. So what are you waiting for? Protect your stuff today."
   }
 
   const psychicText = {
     heading: "Not psychic, just smart.",
     subheading: "Most home warranties expect you to see into the future, picking and choosing which of your home’s most important systems and appliances might need coverage. With Pretzel, you can protect it all for one low monthly price.",
     subheading1: "(Move over, Nostradamus!)",
-    bottom: "From your HVAC systems down to your garbage disposal, home tech repairs and replacements can add up quickly. Keep your life running – without breaking the bank."
+    bottom: "Device repairs and replacements can add up fast. We cover all the most important tech in your life, and we do it one place, for one low price. Keep your life running – without breaking the bank."
   }
 
   const psychicData = [
     {
-      image: 'ac',
-      subheading: "When your AC won’t C",
-      text: "Average cost to replace AC fan motor: $300 to $600"
+      image: 'crashed',
+      subheading: "When your desktop dramatically dies",
+      text: "Average cost to replace a desktop computer: $580"
     },
     {
-      image: 'plumbing_system',
-      subheading: "When your plumbing system poops out",
-      text: "Average cost to replace a water shut-off valve: $375-$800"
+      image: 'favorite_console',
+      subheading: "When your favorite console is inconsolable",
+      text: "Average cost to replace a game system: $230"
     },
     {
-      image: 'fridge',
-      subheading: "When your fridge decides it’s a fancy closet",
-      text: "New fridge compressor: $100 to $500 not including labor"
+      image: 'printer',
+      subheading: "When your printer makes that noise again (come on!)",
+      text: "Average cost to replace a printer: $70"
+    },
+    {
+      image: 'thermostat',
+      subheading: "When your thermostat is all thermed out",
+      text: "Average cost to replace a smart thermostat: $250"
+    },
+    {
+      image: 'router',
+      subheading: "When your router won’t route",
+      text: "Average cost to replace a router: $150"
+    },
+    {
+      image: 'springs',
+      subheading: "When your data springs a leak",
+      text: "Keeping your personal information safe is priceless. That’s why we offer security and storage tools to protect your stuff online as well as off."
     }
   ]
 
@@ -59,45 +74,45 @@ export default function Homes() {
 
   const tasteText = {
     heading: "Here’s a taste of what’s covered",
-    subheading: "Breakdowns, be gone!"
+    subheading: ""
   }
 
   const tasteData = [
     {
       image: "central_air",
-      subheading: "Central Air"
+      subheading: "LED, LCD and Plasma TVs"
     },
     {
       image: "home_heating",
-      subheading: "Home Heating"
+      subheading: "Gaming systems"
     },
     {
       image: "plumbing",
-      subheading: "Plumbing"
+      subheading: "Audio headsets"
     },
     {
       image: "refrigerator",
-      subheading: "Refrigerator"
+      subheading: "Smart thermostats"
     },
     {
       image: "dishwasher",
-      subheading: "Dishwasher"
+      subheading: "Smart home security cameras"
     },
     {
       image: "oven",
-      subheading: "Oven, Stovetop, & Range"
+      subheading: "Smart watches"
     },
     {
       image: "ceiling",
-      subheading: "Ceiling Fans"
+      subheading: "Desktop and laptop computers"
     },
     {
       image: "water_heater",
-      subheading: "Water Heater"
+      subheading: "Smart smoke & carbon monoxide detectors"
     },
     {
       image: "electrical",
-      subheading: "Electrical"
+      subheading: "External hard drives"
     }
   ]
 
@@ -122,9 +137,9 @@ export default function Homes() {
       price: "39.99"
     },
     {
-      image: "electronics_product",
-      subheading: "Your Electronics",
-      text: "From breaks to bugs, protect your laptop, gaming systems, and other bits and bytes.",
+      image: "home_product",
+      subheading: "Your Home",
+      text: "Cover your dishwasher, electrical, plumbing, and other stuff.",
       cta: "See Plans",
       ctalink: "/",
       price: "24.99"
@@ -148,12 +163,12 @@ export default function Homes() {
         subheading={hero.subheading}
         button={hero.button}
         buttonlink={hero.buttonlink}
-        classname='!text-2xl !font-bold !text-[#DBDBDB]'
+        classname='!text-2xl !font-bold !text-[#DBDBDB] !max-w-[1122px]'
       />
-      <HomeGraphic graphic='home_graphic' />
+      <HomeGraphic graphic='electronics_graphic' className='!mt-0' />
       <Covered text={coveredText} />
       <NotPsychic text={psychicText} data={psychicData} button={psychicButton} />
-      <Taste text={tasteText} data={tasteData} button={{ link: './', icon: 'much_more' }} />
+      <Taste text={tasteText} data={tasteData} button={{ link: './', icon: 'so_more' }} />
       <div className="relative">
         <Background image='pro_light_icone' className='left-0 top-[10%]' alt='background left' />
         <Background image='plans_right' className='right-0 bottom-0' alt='background right' />

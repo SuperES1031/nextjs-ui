@@ -1,7 +1,8 @@
 import Grid32 from '@components/molecules/Grid32'
+import cn from 'classnames'
 import styles from './PlansHowItWorks.module.scss'
 
-export default function PlansHowItWorks() {
+export default function PlansHowItWorks({ classname }) {
   const data = [
     {
       image: "get_quote",
@@ -31,7 +32,7 @@ export default function PlansHowItWorks() {
   ]
 
   return (
-    <div className={styles.section}>
+    <div className={cn(styles.root, classname)}>
       <div className={styles.wrap}>
         <div className={styles.heading}>
           <h2>

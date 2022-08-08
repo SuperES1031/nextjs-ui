@@ -2,11 +2,7 @@ import Image from '@components/atoms/Image'
 import TextHeading from '@components/molecules/TextHeading'
 import styles from './Covered.module.scss'
 
-export default function Covered() {
-  const text = {
-    heading: "A few clicks and you’re covered.",
-    subheading: "Your best bud on wheels can be protected today."
-  }
+export default function Covered({text}) {
 
   return (
     <div className={styles.wrap}>

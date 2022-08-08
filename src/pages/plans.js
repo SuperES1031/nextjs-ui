@@ -25,7 +25,7 @@ export default function Plans() {
     <Layout>
       <Space />
       <AboutHero text={hero.text} button={hero.button} image={hero.image} />
-      <PlansHowItWorks />
+      <PlansHowItWorks classname='bg-[#F5F4FA]' />
       <WhatYouSee />
       <TextButton />
       <ChoosePretzel />

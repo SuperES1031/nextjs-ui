@@ -29,6 +29,11 @@ export default function Vehicle() {
     subheading: "Breakdowns, be gone!"
   }
 
+  const coveredText = {
+    heading: "A few clicks and you’re covered.",
+    subheading: "Your best bud on wheels can be protected today."
+  }
+
   const tasteData = [
     {
       image: "engine",
@@ -79,6 +84,39 @@ export default function Vehicle() {
     text: "Really? Yes, really."
   }
 
+
+  const stopText = {
+    heading: "Why stop at one Pretzel when you can have the whole bag?",
+    subheading: "Everything that matters, protected."
+  }
+
+  const stopData = [
+    {
+      image: "home_product",
+      subheading: "Your Home",
+      text: "Cover your dishwasher, electrical, plumbing, and other stuff.",
+      cta: "See Plans",
+      ctalink: "/",
+      price: "39.99"
+    },
+    {
+      image: "electronics_product",
+      subheading: "Your Electronics",
+      text: "From breaks to bugs, protect your laptop, gaming systems, and other bits and bytes.",
+      cta: "See Plans",
+      ctalink: "/",
+      price: "24.99"
+    },
+    {
+      image: "phone_product",
+      subheading: "Your Phone",
+      text: "Your smartphone is essential. Cover it for just a few dollars a month.",
+      cta: "See Plans",
+      ctalink: "/",
+      price: "8.00"
+    }
+  ]
+
   return (
     <Layout>
       <Hero
@@ -91,7 +129,7 @@ export default function Vehicle() {
         classname='!text-2xl !font-bold !text-[#DBDBDB]'
       />
       <CarGraphic />
-      <Covered />
+      <Covered text={coveredText} />
       <Breakdown />
       <Taste text={tasteText} data={tasteData} button={{ link: './', icon: false }} />
       <Mention />
@@ -107,7 +145,7 @@ export default function Vehicle() {
           </div>
         </div>
       </div>
-      <PlansHowItWorks />
+      <PlansHowItWorks classname='bg-[#F5F4FA]' />
       <div className="bg-[#F5F4FA] pb-20">
         <TextSubHeading text={text} />
         <div className="py-10 md:py-20 text-center">
@@ -121,7 +159,7 @@ export default function Vehicle() {
         <Testimonial />
       </div>
       <ProductFaq />
-      <StopAt />
+      <StopAt text={stopText} data={stopData} />
     </Layout >
   )
 } 

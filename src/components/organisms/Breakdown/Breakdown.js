@@ -1,3 +1,4 @@
+import Background from '@components/atoms/Background'
 import GridImage from '@components/molecules/GridImage'
 import NATextHeading from '@components/molecules/NATextHeading'
 import styles from './Breakdown.module.scss'
@@ -32,6 +33,8 @@ export default function Breakdown() {
 
   return (
     <div className={styles.root}>
+      <Background image='break_left' className='left-0 top-[10%]' alt='background left' />
+      <Background image='break_right' className='right-0 top-[30%]' alt='background right' />
       <div className={styles.wrap}>
         <div className={styles.head}>
           <NATextHeading

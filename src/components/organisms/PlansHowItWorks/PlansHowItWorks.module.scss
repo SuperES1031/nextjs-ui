@@ -1,6 +1,4 @@
-.section {
-  @apply bg-[#F5F4FA];
-
+.root {
   & .wrap {
     @apply container m-auto px-6 text-center py-20;
 
