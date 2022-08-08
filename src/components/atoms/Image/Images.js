@@ -121,4 +121,13 @@ export const images = {
   thermostat: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/thermostat.png',
   router: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/router.png',
   springs: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/springs.png',
+  phone_product_hero: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/phone_product_hero.png',
+  phone_graphic: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/phone_graphic.svg',
+  cracked_screen: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/cracked_screen.png',
+  defects: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/defects.png',
+  stolen: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/stolen.png',
+  batteries_black: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/batteries_black.png',
+  water_damage: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/water_damage.png',
+  accessories: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/accessories.png',
+  supply_replacement: 'https://elkcreekfirepits.com/wp-content/uploads/2022/07/supply_replacement.png',
 }
