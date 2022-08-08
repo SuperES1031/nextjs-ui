@@ -1,0 +1,54 @@
+.root {
+  @apply bg-[#F5F4FA];
+
+  & .wrap {
+    @apply max-w-screen-2xl m-auto px-2 pb-20 md:pb-32;
+
+    & .head {
+      @apply max-w-[1145px]  m-auto;
+
+      & .text {
+        @apply py-4 max-w-xl m-auto;
+      }
+    }
+
+    & .body {
+      @apply pt-8 md:pt-14;
+
+      & ul {
+        @apply items-baseline;
+
+        & li {
+          @apply items-baseline py-2;
+        }
+
+        & p {
+          @apply text-lg md:text-body text-[#1F1A3D] max-w-[400px];
+        }
+      }
+
+      & .image {
+        @apply pt-14 md:pt-24;
+
+        & img {
+          @apply m-auto;
+        }
+      }
+    }
+    & .footer {
+      @apply pt-16;
+
+      & ul {
+        @apply items-baseline;
+
+        & li {
+          @apply mt-[-70px];
+        }
+
+        & p {
+          @apply text-lg md:text-body text-[#1F1A3D] max-w-[270px] py-4;
+        }
+      }
+    }
+  }
+}

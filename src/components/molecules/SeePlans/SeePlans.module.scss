@@ -1,5 +1,5 @@
 .wrap {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center;
+  @apply grid text-center;
 
   & li {
     @apply py-8 duration-500;

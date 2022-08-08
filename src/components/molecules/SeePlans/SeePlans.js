@@ -1,4 +1,5 @@
 import Image from '@components/atoms/Image'
+import Grid from '@functions/grid'
 import cn from 'classnames'
 import Link from 'next/link'
 import styles from './SeePlans.module.scss'
@@ -8,7 +9,10 @@ export default function SeePlans(props) {
 
   return (
     <div>
-      <ul className={styles.wrap}>
+      <ul className={cn(
+        styles.wrap,
+        items ? Grid(items.length) : ""
+      )}>
         {items.map((item, index) => (
           <li key={index}>
             {item.image && (

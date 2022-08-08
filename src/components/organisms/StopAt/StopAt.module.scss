@@ -1,0 +1,15 @@
+.wrap {
+  @apply py-20 md:py-32 px-4;
+
+  & .head {
+    @apply pt-4 md:pt-20 max-w-screen-xl m-auto;
+  }
+
+  & .body {
+    @apply pt-4 md:pt-24 max-w-screen-2xl m-auto;
+
+    & img {
+      @apply w-[170px] md:w-[220px] h-auto;
+    }
+  }
+}

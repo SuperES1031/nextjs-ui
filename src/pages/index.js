@@ -119,7 +119,7 @@ export default function Home() {
       <HowItWorks data={works} />
       <Drama />
       <PretzelMean />
-      <Backed />
+      <Backed classname='bg-[#F5F4FA]' />
       <Testimonial />
     </Layout>
   )

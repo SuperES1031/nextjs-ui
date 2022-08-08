@@ -1,9 +1,19 @@
+import Background from "@components/atoms/Background";
 import Layout from "@components/common/Layout";
+import NATextHeading from "@components/molecules/NATextHeading";
+import TextSubHeading from "@components/molecules/TextSubHeading";
+import Backed from "@components/organisms/Backed";
 import Breakdown from "@components/organisms/Breakdown";
 import CarGraphic from "@components/organisms/CarGraphic";
 import Covered from "@components/organisms/Covered";
 import Hero from "@components/organisms/Hero";
+import Mention from "@components/organisms/Mention";
+import PlansHowItWorks from "@components/organisms/PlansHowItWorks";
+import ProductFaq from "@components/organisms/ProductFaq";
+import StopAt from "@components/organisms/StopAt";
 import Taste from "@components/organisms/Taste";
+import Testimonial from "@components/organisms/Testimonial";
+import Link from "next/link";
 
 export default function Vehicle() {
   const hero = {
@@ -58,6 +68,17 @@ export default function Vehicle() {
     }
   ]
 
+  const planText = {
+    heading: "With a Pretzel plan, you’re covered. Seriously.",
+    subheading: "Breakdowns happen. Why not keep your life running?"
+  }
+
+  const text = {
+    subheading1: "And it all starts at just",
+    subheading2: "$XX per month.",
+    text: "Really? Yes, really."
+  }
+
   return (
     <Layout>
       <Hero
@@ -73,6 +94,34 @@ export default function Vehicle() {
       <Covered />
       <Breakdown />
       <Taste text={tasteText} data={tasteData} button={{ link: './', icon: false }} />
-    </Layout>
+      <Mention />
+      <div className="relative">
+        <Background image='pro_light_icone' className='left-0 top-[10%]' alt='background left' />
+        <Background image='plans_right' className='right-0 top-[10%]' alt='background right' />
+        <div className="py-20 md:py-40 max-w-screen-lg m-auto px-2">
+          <NATextHeading heading={planText.heading} subheading={planText.subheading} />
+          <div className="text-center pt-10 md:pt-24">
+            <Link href='./'>
+              <a className="btn">GET PRETZEL</a>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <PlansHowItWorks />
+      <div className="bg-[#F5F4FA] pb-20">
+        <TextSubHeading text={text} />
+        <div className="py-10 md:py-20 text-center">
+          <Link href='./'>
+            <a className="btn">GET STARTED</a>
+          </Link>
+        </div>
+      </div>
+      <Backed />
+      <div className="bg-[#F5F4FA]">
+        <Testimonial />
+      </div>
+      <ProductFaq />
+      <StopAt />
+    </Layout >
   )
 } 
