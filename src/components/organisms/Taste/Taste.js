@@ -16,7 +16,7 @@ export default function Taste({ text, data, button }) {
         </div>
         <div className={styles.footer}>
           {button.icon && (
-            <Image src={button.icon} />
+            <Image src={button.icon} alt="button icon" />
           )}
           <Link href={button.link}>
             <a className='text-2xl'>
