@@ -1,6 +1,6 @@
 import Background from '@components/atoms/Background'
 import GridImage from '@components/molecules/GridImage'
-import NATextHeading from '@components/molecules/NATextHeading'
+import TextHeading from '@components/molecules/TextHeading'
 import styles from './NotPsychic.module.scss'
 
 export default function NotPsychic({ text, data, button }) {
@@ -10,10 +10,10 @@ export default function NotPsychic({ text, data, button }) {
       <Background image='break_right' className='right-0 top-[30%]' alt='background right' />
       <div className={styles.wrap}>
         <div className={styles.head}>
-          <NATextHeading heading={text?.heading} subheading={text?.subheading} />
+          <TextHeading heading={text?.heading} subheading={text?.subheading} />
           {text?.subheading1 && (
             <div>
-              <NATextHeading subheading={text.subheading1} />
+              <TextHeading subheading={text.subheading1} />
             </div>
           )}
         </div>
@@ -22,7 +22,7 @@ export default function NotPsychic({ text, data, button }) {
         </div>
         <div className={styles.footer}>
           {text?.bottom && (
-            <NATextHeading subheading={text?.bottom} />
+            <TextHeading subheading={text?.bottom} />
           )}
           {button?.url && (
             <div className='text-center pt-20'>

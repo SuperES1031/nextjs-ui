@@ -2,10 +2,9 @@
   @apply max-w-[1400px] m-auto py-20 px-3 md:px-10 text-center;
 
   & .heading {
-    @apply py-10 md:py-20 max-w-[1200px];
+    @apply py-10 max-w-[1200px];
   }
 
   & .body {
-    @apply md:py-10;
   }
 }

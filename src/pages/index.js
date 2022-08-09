@@ -109,7 +109,7 @@ export default function Home() {
         buttonlink={hero.buttonlink}
       />
       <ComPrice comprice={comprice} />
-      <div className='max-w-[1050px] m-auto pt-20 pb-20 md:pb-40 px-4'>
+      <div className='max-w-[1050px] m-auto pt-10 pb-20 md:pb-32 px-4'>
         <TextHeading
           heading={richtext.heading}
           subheading={richtext.subheading}
@@ -119,7 +119,7 @@ export default function Home() {
       <HowItWorks data={works} />
       <Drama />
       <PretzelMean />
-      <Backed classname='bg-[#F5F4FA]' />
+      <Backed classname='bg-[#F5F4FA] !items-center ' />
       <Testimonial />
     </Layout>
   )

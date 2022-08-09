@@ -1,5 +1,5 @@
 .root {
-  @apply bg-[#F5F4FA] py-20 md:py-32;
+  @apply bg-[#F5F4FA] py-20;
 
   & .wrap {
     @apply max-w-screen-2xl m-auto px-6;
@@ -14,7 +14,7 @@
       }
 
       & li {
-        @apply py-4 md:py-8;
+        @apply py-4;
 
         & p {
           @apply text-lg md:text-body text-[#1F1A3D];

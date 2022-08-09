@@ -15,7 +15,7 @@
 }
 
 .copyWrite {
-  @apply text-base md:text-body text-center pt-10 pb-16 md:pb-10;
+  @apply text-base text-center pt-10 pb-16 md:pb-10;
   color: #79768b;
 }
 
@@ -44,11 +44,11 @@
 }
 
 .link {
-  @apply text-white font-extralight float-left w-1/2 pb-4 hover:underline font-dm text-body;
+  @apply text-white font-extralight float-left w-1/2 pb-4 hover:underline font-dm text-base;
 }
 
 .text {
-  @apply text-white text-body font-light;
+  @apply text-white text-base font-light;
 }
 
 .form {

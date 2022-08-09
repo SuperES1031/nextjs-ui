@@ -1,4 +1,5 @@
 import Grid32 from '@components/molecules/Grid32'
+import TextHeading from '@components/molecules/TextHeading'
 import cn from 'classnames'
 import styles from './PlansHowItWorks.module.scss'
 
@@ -31,13 +32,13 @@ export default function PlansHowItWorks({ classname }) {
     }
   ]
 
+  const text = "Here’s how it works"
+
   return (
     <div className={cn(styles.root, classname)}>
       <div className={styles.wrap}>
         <div className={styles.heading}>
-          <h2>
-            Here’s how it works
-          </h2>
+          <TextHeading heading={text} />
         </div>
         <div className={styles.body}>
           <Grid32 data={data} className='text-[#1F1A3D]' />

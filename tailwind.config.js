@@ -13,9 +13,10 @@ module.exports = {
         dm: ['DM Sans']
       },
       fontSize: {
-        'body': ['20px', '26px'],
-        'head': ['64px', '68px'],
-        'subhead': ['32px', '36px']
+        'head': ['55px', '55px'],
+        'title': ['44px', '46px'],
+        'subhead': ['22px', '24px'],
+        'body': ['18px', '20px']
       },
       colors: {
         headColor: '#EA2667'

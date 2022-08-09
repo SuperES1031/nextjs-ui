@@ -2,7 +2,7 @@
   @apply relative;
 
   & .wrap {
-    @apply m-auto px-2 py-20 md:py-40 mt-[-100px] md:mt-[-200px] overflow-hidden;
+    @apply m-auto px-2 py-20 md:py-24 overflow-hidden;
 
     & img {
       @apply m-auto;

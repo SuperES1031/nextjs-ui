@@ -3,7 +3,8 @@
 }
 
 .heading {
-  @apply text-4xl md:text-head font-bold text-[#1f1a3d] tracking-normal max-w-screen-lg m-auto;
+  @apply text-4xl md:text-title font-semibold text-[#1f1a3d] tracking-normal max-w-4xl m-auto;
+  letter-spacing: -2px;
 }
 
 .subheading {

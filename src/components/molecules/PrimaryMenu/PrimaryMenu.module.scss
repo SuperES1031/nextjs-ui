@@ -19,12 +19,12 @@
 }
 
 .menu {
-  @apply inline-flex items-center text-body;
+  @apply inline-flex items-center text-base;
   font-weight: 400;
 }
 
 .login {
-  @apply inline-flex items-center text-body font-semibold text-headColor;
+  @apply inline-flex items-center text-lg font-semibold text-headColor;
 }
 
 .active {

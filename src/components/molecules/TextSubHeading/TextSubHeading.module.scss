@@ -2,7 +2,8 @@
   @apply text-center;
 
   & .heading {
-    @apply text-3xl md:text-[48px] font-bold;
+    @apply text-4xl md:text-title font-semibold text-[#1f1a3d] tracking-normal;
+    letter-spacing: -2px;
 
     & h2 {
       @apply leading-[1.5];

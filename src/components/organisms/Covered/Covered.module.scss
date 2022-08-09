@@ -8,7 +8,7 @@
   & .body {
     @apply py-10 md:py-20;
     & img {
-      @apply m-auto;
+      @apply m-auto max-w-full md:max-w-6xl m-auto;
     }
   }
 }

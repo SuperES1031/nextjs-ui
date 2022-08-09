@@ -165,7 +165,7 @@ export default function Electronics() {
         buttonlink={hero.buttonlink}
         classname='!text-2xl !font-bold !text-[#DBDBDB] !max-w-[1122px]'
       />
-      <HomeGraphic graphic='electronics_graphic' className='!mt-0' />
+      <HomeGraphic graphic='electronics_graphic' />
       <Covered text={coveredText} />
       <NotPsychic text={psychicText} data={psychicData} button={psychicButton} />
       <Taste text={tasteText} data={tasteData} button={{ link: './', icon: 'so_more' }} />

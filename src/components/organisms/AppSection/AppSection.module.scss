@@ -3,17 +3,17 @@
 }
 
 .wrap {
-  @apply container m-auto text-center pt-5;
+  @apply container m-auto text-center pt-5 overflow-hidden;
 }
 
 .heading {
-  @apply text-4xl md:text-head text-white font-semibold max-w-[750px] m-auto  py-20 px-5;
+  @apply text-4xl md:text-title text-white font-semibold max-w-5xl m-auto  py-20 px-5;
 }
 
 .imgWrap {
   @apply pt-5 px-1;
 
   & img {
-    @apply m-auto;
+    @apply m-auto max-w-full md:max-w-5xl m-auto;
   }
 }

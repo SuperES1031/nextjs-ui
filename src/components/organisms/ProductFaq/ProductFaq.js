@@ -1,7 +1,6 @@
 import Background from '@components/atoms/Background'
 import Accordion from '@components/molecules/Accordion'
-import NATextHeading from '@components/molecules/NATextHeading'
-import Link from 'next/link'
+import TextHeading from '@components/molecules/TextHeading'
 import styles from './ProductFaq.module.scss'
 
 export default function ProductFaq() {
@@ -38,7 +37,7 @@ export default function ProductFaq() {
       <Background image='faq_icon' className='right-0 top-[5%]' alt='background right' />
       <div className={styles.wrap}>
         <div className={styles.head}>
-          <NATextHeading heading={text.heading} subheading={text.subheading} />
+          <TextHeading heading={text.heading} subheading={text.subheading} />
         </div>
         <div className={styles.body}>
           <Accordion accordion={faq} icon='accordion_icon2' />
@@ -46,6 +45,7 @@ export default function ProductFaq() {
         <div className='text-center md:py-10'>
           <a href='./faq' rel='noreferrer' className='text-base font-bold underline text-[#1F1A3D]'>SEE ALL</a>
         </div>
+        
       </div>
     </div>
   )

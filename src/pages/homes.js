@@ -148,7 +148,7 @@ export default function Homes() {
         subheading={hero.subheading}
         button={hero.button}
         buttonlink={hero.buttonlink}
-        classname='!text-2xl !font-bold !text-[#DBDBDB]'
+        classname='!text-subhead !text-[#DBDBDB]'
       />
       <HomeGraphic graphic='home_graphic' />
       <Covered text={coveredText} />
@@ -159,11 +159,11 @@ export default function Homes() {
         <Background image='plans_right' className='right-0 bottom-0' alt='background right' />
         <PlansHowItWorks />
       </div>
-      <div className="bg-[#F5F4FA] py-40">
+      <div className="bg-[#F5F4FA] py-20">
         <TextSubHeading text={text} />
-        <div className="pt-10 md:pt-20 text-center">
+        <div className="pt-10 md:pt-16 text-center">
           <Link href='./'>
-            <a className="btn">GET STARTED</a>
+            <a className="btn text-body">GET STARTED</a>
           </Link>
         </div>
       </div>

@@ -1,5 +1,5 @@
 .wrap {
-  @apply grid text-center items-center text-[20px] md:text-[24px] px-6;
+  @apply grid text-center items-baseline gap-x-4 text-[20px] md:text-[24px] px-6;
 }
 
 .image {
@@ -11,7 +11,7 @@
 }
 
 .subheading {
-  @apply font-bold py-2  leading-7 max-w-[280px] m-auto px-3;
+  @apply text-subhead font-bold py-2  leading-7 max-w-[280px] m-auto px-3;
 }
 
 .text {

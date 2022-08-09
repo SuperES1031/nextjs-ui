@@ -2,7 +2,7 @@
   @apply flex flex-wrap text-center items-center justify-center;
 
   & li {
-    @apply w-1/2 md:w-1/3 lg:w-1/5;
+    @apply w-1/2 md:w-1/3 lg:w-1/5 py-6;
   }
 
   & .image {

@@ -3,11 +3,11 @@
 }
 
 .wrap {
-  @apply text-center text-white w-full max-w-[1082px];
+  @apply text-center text-white w-full max-w-[992px];
 }
 
 .heading {
-  @apply text-4xl md:text-head font-semibold py-3 px-6;
+  @apply text-4xl md:text-head font-[500] py-3 px-6;
 }
 
 .text {

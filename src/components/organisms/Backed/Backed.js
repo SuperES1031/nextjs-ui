@@ -27,7 +27,7 @@ export default function Backed({ classname }) {
           />
         </div>
         <div className={styles.body}>
-          <GridImage data={data} />
+          <GridImage data={data} className={classname} />
         </div>
       </div>
     </div>

@@ -3,9 +3,10 @@
 }
 
 .heading {
-  @apply text-4xl md:text-head font-bold text-[#1f1a3d] tracking-normal;
+  @apply text-4xl md:text-title font-semibold text-[#1f1a3d] tracking-normal;
+  letter-spacing: -2px;
 }
 
 .subheading {
-  @apply text-[#676477] text-[18px] md:text-[24px] font-bold pt-4;
+  @apply text-[#676477] text-lg md:text-subhead font-semibold pt-4;
 }

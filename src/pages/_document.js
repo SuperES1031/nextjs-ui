@@ -2,10 +2,10 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html className='scroll-smooth'>
+    <Html className='scroll-smooth' style={{ scrollBehavior: 'smooth' }}>
       <Head>
         <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=xgtu0jhxgpxumj1ksbpsya" async={true}></script>
-        <link rel='shortcut icon' type='image/x-icon' href='./src/../public/favicon.ico' />
+        <link rel='shortcut icon' type='image/x-icon' href='./src/../favicon.ico' />
       </Head>
       <body>
         <Main />

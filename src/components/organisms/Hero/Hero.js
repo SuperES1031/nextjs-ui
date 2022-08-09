@@ -9,7 +9,7 @@ export default function Hero({ image, heading, subheading, text, button, buttonl
     <div className='relative'>
       <Image
         src={image}
-        className="w-screen h-[75vh] md:h-screen object-cover"
+        className="w-screen h-[75vh] md:h-[95vh] object-cover"
         alt="home hero"
       />
       <div className={cn(styles.wrap, classname, 'center')}>
