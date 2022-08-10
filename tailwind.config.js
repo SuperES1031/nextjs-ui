@@ -14,6 +14,7 @@ module.exports = {
       },
       fontSize: {
         'head': ['55px', '55px'],
+        'mobilehead': ['34px', '36px'],
         'title': ['44px', '46px'],
         'subhead': ['22px', '24px'],
         'body': ['18px', '20px']

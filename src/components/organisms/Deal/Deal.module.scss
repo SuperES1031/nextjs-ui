@@ -2,14 +2,14 @@
   @apply py-10 relative;
 
   & .wrap {
-    @apply py-8 md:py-20;
+    @apply py-8 px-4;
 
     & .head {
-      @apply py-8 md:py-20 max-w-[1150px] m-auto;
+      @apply py-8 md:py-20 max-w-5xl m-auto;
     }
 
     & .body {
-      @apply py-8 md:py-20 max-w-[1450px] m-auto;
+      @apply py-8 md:py-10 max-w-screen-xl m-auto;
     }
   }
 }

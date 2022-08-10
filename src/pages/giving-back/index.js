@@ -1,6 +1,7 @@
 import Space from "@components/atoms/Space"
 import Layout from "@components/common/Layout"
 import NATextHeading from "@components/molecules/NATextHeading"
+import TextHero from "@components/molecules/TextHero"
 import Partners from "@components/organisms/Partners"
 
 export default function OurPartners() {
@@ -12,7 +13,7 @@ export default function OurPartners() {
     <Layout>
       <Space />
       <div className="pt-16 px-4">
-        <NATextHeading heading={text.heading} subheading={text.subheading} />
+        <TextHero heading={text.heading} subheading={text.subheading} />
       </div>
       <Partners />
     </Layout>

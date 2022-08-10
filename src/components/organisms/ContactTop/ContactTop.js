@@ -1,6 +1,6 @@
 import Background from '@components/atoms/Background'
-import NATextHeading from '@components/molecules/NATextHeading'
 import SeePlans from '@components/molecules/SeePlans'
+import TextHero from '@components/molecules/TextHero'
 import Link from 'next/link'
 import styles from './ContactTop.module.scss'
 
@@ -51,7 +51,7 @@ export default function ContactTop() {
       <Background image='plans_right' className='hidden md:block right-0' alt='background right' />
       <div className={styles.wrap}>
         <div className={styles.head}>
-          <NATextHeading heading={text.heading} subheading={text.subheading} />
+          <TextHero heading={text.heading} subheading={text.subheading} />
           <div className={styles.social}>
             <a
               href='https://www.facebook.com/pretzelwarranty/'

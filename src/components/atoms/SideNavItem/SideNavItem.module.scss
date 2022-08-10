@@ -1,6 +1,8 @@
 .item {
+  // @apply mb-4;
+
   & .subnav {
-    @apply h-6 overflow-hidden;
+    @apply h-2 overflow-hidden mt-2;
   }
 
   & .active {
@@ -21,10 +23,14 @@
   }
 
   & .nav_title {
-    @apply flex cursor-pointer justify-between bg-[#F5F4FA] font-bold md:py-6 lg:py-8 px-4 rounded-[10px] md:text-xl lg:text-2xl;
+    @apply flex items-center cursor-pointer justify-between bg-[#F5F4FA] font-semibold md:py-3 px-2 lg:px-4 rounded-[10px] md:text-lg;
+
+    & svg {
+      @apply h-4;
+    }
   }
 
   & .link {
-    @apply md:text-xl lg:text-2xl my-4 py-2 rounded-lg;
+    @apply md:text-lg my-2 py-1 rounded-lg text-left pl-4 lg:pl-10;
   }
 }

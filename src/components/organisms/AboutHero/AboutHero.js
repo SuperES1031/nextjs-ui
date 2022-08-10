@@ -1,6 +1,7 @@
 import Background from '@components/atoms/Background';
 import Image from '@components/atoms/Image';
 import TextHeading from '@components/molecules/TextHeading';
+import TextHero from '@components/molecules/TextHero';
 import Link from 'next/link';
 import styles from './AboutHero.module.scss';
 
@@ -11,11 +12,11 @@ export default function AboutHero(props) {
 
   return (
     <div className={styles.root}>
-      <Background image='plans_left' className='bottom-0' alt='background left' />
-      <Background image='plans_right' className='right-0' alt='background right' />
+      <Background image='plans_left' className='hidden md:block bottom-0' alt='background left' />
+      <Background image='plans_right' className='hidden md:block right-0' alt='background right' />
       <div className={styles.wrap}>
         <div className={styles.heading}>
-          <TextHeading heading={text.heading} subheading={text.text} />
+          <TextHero heading={text.heading} subheading={text.text} />
         </div>
         <div className={styles.body}>
           <Image src={image} alt='plans hero' />

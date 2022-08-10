@@ -2,22 +2,22 @@
   @apply bg-[#F5F4FA] py-20;
 
   & .wrap {
-    @apply max-w-[1400px] m-auto px-6;
+    @apply max-w-[1400px] m-auto px-2;
 
     & .heading {
-      @apply max-w-[1200px] m-auto py-10 md:py-20;
+      @apply max-w-4xl m-auto pt-16 pb-12;
     }
 
     & .body {
       & li {
-        @apply py-4 md:py-10;
+        @apply py-4;
 
         & p {
-          @apply max-w-[330px] m-auto;
+          @apply max-w-[330px] m-auto py-0;
         }
 
         & img {
-          @apply h-[160px] md:h-auto;
+          @apply h-40 md:h-52;
         }
       }
     }

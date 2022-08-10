@@ -73,7 +73,7 @@ export default function ShortVersion() {
           <TextHeading heading={text.heading} subheading={text.subheading} />
           <TextHeading subheading={text1} />
         </div>
-        <div>
+        <div className={styles.body}>
           <GridImage data={works} />
         </div>
         <div className={styles.text}>

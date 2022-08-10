@@ -6,11 +6,12 @@
   @apply container m-auto pb-10 px-3 md:pb-14;
 
   & .heading {
-    @apply pt-20 max-w-6xl m-auto;
+    @apply pt-20 max-w-5xl m-auto;
   }
+
   & .body {
     & img {
-      @apply m-auto pt-10;
+      @apply m-auto max-w-full md:max-w-2xl;
     }
   }
   & .footer {

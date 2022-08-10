@@ -4,14 +4,18 @@
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
 
   & .heading {
-    @apply text-3xl md:text-4xl lg:text-[48px] font-bold text-center py-10 leading-[1.1];
+    @apply text-3xl md:text-mobilehead lg:text-5xl font-semibold text-center py-4 md:py-10 leading-[1.2];
   }
 
   & ul {
     @apply grid grid-cols-4;
 
     & li {
-      @apply py-5 text-sm md:text-body lg:text-[24px] font-semibold;
+      @apply py-5 text-sm md:text-body lg:text-subhead font-semibold;
+
+      & svg {
+        @apply w-4 md:w-auto;
+      }
     }
   }
 

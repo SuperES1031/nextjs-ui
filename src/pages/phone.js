@@ -141,7 +141,7 @@ export default function Phone() {
         subheading={hero.subheading}
         button={hero.button}
         buttonlink={hero.buttonlink}
-        classname='!text-2xl !font-bold !text-[#DBDBDB] !max-w-[1122px]'
+        classname='!text-subhead !text-[#DBDBDB] !max-w-[1122px]'
       />
       <HomeGraphic graphic='phone_graphic' />
       <Covered text={coveredText} />

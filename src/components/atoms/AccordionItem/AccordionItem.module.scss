@@ -15,14 +15,14 @@
   }
 
   & .body {
-    @apply text-[#676477] text-lg md:text-2xl pl-[20px] md:pl-[49px] pr-4 md:px-[106px] my-0 overflow-hidden;
+    @apply text-[#676477] text-body pl-[20px] md:pl-[49px] pr-4 md:px-[106px] my-0 overflow-hidden;
     transform: scaleY(0);
     transform-origin: top;
     transition: all 0.4s ease;
     height: 0;
 
     & p {
-      @apply py-4 md:py-10;
+      @apply py-4 md:py-8;
     }
   }
 }

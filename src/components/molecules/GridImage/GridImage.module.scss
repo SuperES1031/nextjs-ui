@@ -11,7 +11,7 @@
 }
 
 .subheading {
-  @apply text-subhead font-bold py-2  leading-7 max-w-[280px] m-auto px-3;
+  @apply text-body md:text-subhead font-bold py-2  leading-7 max-w-[280px] m-auto px-3;
 }
 
 .text {

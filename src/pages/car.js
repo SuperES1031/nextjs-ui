@@ -126,7 +126,7 @@ export default function Vehicle() {
         subheading={hero.subheading}
         button={hero.button}
         buttonlink={hero.buttonlink}
-        classname='!text-2xl !font-bold !text-[#DBDBDB]'
+        classname='!text-subhead !text-[#DBDBDB]'
       />
       <CarGraphic />
       <Covered text={coveredText} />
@@ -136,7 +136,7 @@ export default function Vehicle() {
       <div className="relative">
         <Background image='pro_light_icone' className='left-0 top-[10%]' alt='background left' />
         <Background image='plans_right' className='right-0 top-[10%]' alt='background right' />
-        <div className="py-20 md:py-40 max-w-screen-lg m-auto px-2">
+        <div className="py-20 md:py-32 max-w-screen-lg m-auto px-2">
           <NATextHeading heading={planText.heading} subheading={planText.subheading} />
           <div className="text-center pt-10 md:pt-24">
             <Link href='./'>

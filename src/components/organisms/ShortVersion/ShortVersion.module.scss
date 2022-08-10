@@ -8,8 +8,17 @@
       @apply md:py-12 max-w-[1150px] m-auto;
     }
 
+    & .body {
+      & img {
+        @apply w-44 md:w-52;
+      }
+      & li {
+        @apply py-4;
+      }
+    }
+
     & .text {
-      @apply py-10 md:py-14;
+      @apply pt-10 md:pt-20;
     }
 
     & .bottom {

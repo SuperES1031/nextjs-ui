@@ -2,21 +2,21 @@
   @apply relative;
 
   & .wrap {
-    @apply py-20 md:py-32 px-4;
+    @apply py-20 px-4;
 
     & .head {
-      @apply py-10 md:py-20 max-w-6xl m-auto;
+      @apply py-10 md:py-20 max-w-5xl m-auto;
     }
 
     & .body {
-      @apply max-w-[1500px] m-auto;
+      @apply max-w-screen-2xl m-auto;
 
       & li {
         @apply py-4;
       }
 
       & img {
-        @apply h-[160px] md:h-auto;
+        @apply h-40 md:h-48;
       }
 
       & p {

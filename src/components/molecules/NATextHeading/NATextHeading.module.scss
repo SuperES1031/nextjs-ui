@@ -3,10 +3,10 @@
 }
 
 .heading {
-  @apply text-4xl md:text-title font-semibold text-[#1f1a3d] tracking-normal;
+  @apply text-mobilehead md:text-title font-semibold text-[#1f1a3d] tracking-normal;
   letter-spacing: -2px;
 }
 
 .subheading {
-  @apply text-[#676477] text-lg md:text-subhead font-semibold pt-4;
+  @apply text-[#676477] text-lg md:text-subhead font-[500] pt-4;
 }

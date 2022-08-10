@@ -11,7 +11,7 @@
       @apply py-10 text-center;
 
       & h2 {
-        @apply text-4xl md:text-head font-bold text-white tracking-normal;
+        @apply text-mobilehead md:text-title font-bold text-white tracking-normal;
       }
     }
 
@@ -50,7 +50,7 @@
         }
 
         & .title {
-          @apply text-4xl md:text-[64px] font-bold;
+          @apply text-mobilehead md:text-title font-bold;
         }
 
         & .subtitle {

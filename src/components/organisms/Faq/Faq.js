@@ -1,7 +1,7 @@
 import Background from '@components/atoms/Background'
 import Accordion from '@components/molecules/Accordion'
 import GridImage from '@components/molecules/GridImage'
-import NATextHeading from '@components/molecules/NATextHeading'
+import TextHero from '@components/molecules/TextHero'
 import styles from './Faq.module.scss'
 
 export default function Faq() {
@@ -66,7 +66,7 @@ export default function Faq() {
       <Background image='plans_right' className='hidden md:block right-0' alt='background right' />
       <div className={styles.wrap}>
         <div className={styles.head}>
-          <NATextHeading heading={text.heading} subheading={text.subheading} />
+          <TextHero heading={text.heading} subheading={text.subheading} />
         </div>
         <div className={styles.body}>
           <GridImage data={data} />

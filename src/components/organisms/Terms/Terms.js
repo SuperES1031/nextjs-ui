@@ -1,6 +1,7 @@
 import Background from '@components/atoms/Background'
 import SideNavItem from '@components/atoms/SideNavItem'
 import NATextHeading from '@components/molecules/NATextHeading'
+import TextHero from '@components/molecules/TextHero'
 import styles from './Terms.module.scss'
 
 export default function Terms() {
@@ -32,15 +33,15 @@ export default function Terms() {
       link: [
         {
           text: "Pulicy Schtermit",
-          link: "#"
+          link: "#pharetra_adipiscing"
         },
         {
           text: "Pulicy Schtermit",
-          link: "#"
+          link: "#come_from"
         },
         {
           text: "Pulicy Schtermit",
-          link: "#"
+          link: "#where_come_from"
         }
       ]
     },
@@ -49,15 +50,15 @@ export default function Terms() {
       link: [
         {
           text: "Pulicy Schtermit",
-          link: "#"
+          link: "#pharetra_adipiscing"
         },
         {
           text: "Pulicy Schtermit",
-          link: "#"
+          link: "#come_from"
         },
         {
           text: "Pulicy Schtermit",
-          link: "#"
+          link: "#where_come_from"
         }
       ]
     },
@@ -66,15 +67,15 @@ export default function Terms() {
       link: [
         {
           text: "Pulicy Schtermit",
-          link: "#"
+          link: "#pharetra_adipiscing"
         },
         {
           text: "Pulicy Schtermit",
-          link: "#"
+          link: "#come_from"
         },
         {
           text: "Pulicy Schtermit",
-          link: "#"
+          link: "#where_come_from"
         }
       ]
     }
@@ -87,7 +88,7 @@ export default function Terms() {
       <Background image='plans_right' className='hidden md:block right-0' alt='background right' />
       <div className={styles.wrap}>
         <div className={styles.head}>
-          <NATextHeading heading={text.heading} subheading={text.subheading} />
+          <TextHero heading={text.heading} subheading={text.subheading} />
         </div>
         <div className={styles.body}>
           <div className={styles.bodyInner}>

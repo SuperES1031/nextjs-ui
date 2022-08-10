@@ -8,8 +8,8 @@ export default function Accordion(props) {
   const accordionData = props.accordion
   const icon = props.icon
   const accordion = accordionData?.map((item, index) => {
-    const showDescription = index === activeIndex ? "showDescription" : "";
-    const ariaExpanded = index === activeIndex ? "ariaExpanded" : "";
+    const showDescription = index === activeIndex ? "showDescription" : ""
+    const ariaExpanded = index === activeIndex ? "ariaExpanded" : ""
 
     return (
       <AccordionItem
