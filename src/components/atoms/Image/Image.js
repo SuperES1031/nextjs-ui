@@ -30,12 +30,11 @@ export default function DisplayImage(props) {
   }
 
   // Set the image src.
-
   const source = props?.src?.includes('https')
     ? props?.src
     : images[props?.src]
       ? images[props?.src]
-      : images['spacer']
+      : ""
 
   // No image src? Bail.
   if (!source) {
