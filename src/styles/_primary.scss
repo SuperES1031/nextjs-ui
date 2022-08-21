@@ -124,3 +124,9 @@
   transform: none;
   visibility: visible;
 }
+
+.menu-item:hover .subnav {
+  height: auto;
+  transform: scale(1);
+  transition: all 0.3s;
+}

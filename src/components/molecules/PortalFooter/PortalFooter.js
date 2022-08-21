@@ -7,8 +7,8 @@ export default function PortalFooter() {
 
   const menus = [
     {
-      text: 'About',
-      link: '/about',
+      text: 'Why Pretzel',
+      link: '/why-pretzel',
     },
     {
       text: 'Newsroom',

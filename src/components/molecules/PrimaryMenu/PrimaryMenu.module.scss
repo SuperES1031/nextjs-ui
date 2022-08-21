@@ -15,7 +15,64 @@
 }
 
 .menus {
-  @apply hidden lg:flex space-x-8;
+  @apply hidden lg:flex;
+
+  & a {
+    @apply px-4 flex items-center;
+  }
+}
+
+.subnav {
+  @apply absolute lg:w-[950px] xl:w-[1200px] left-[-250px] z-50 bg-[#F5F4FA] top-10 p-6 rounded-[20px] overflow-hidden;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: all 0.3s ease;
+
+  & .submenu_body {
+    @apply grid grid-cols-4;
+
+    & .subnav_item {
+      @apply lg:p-4 xl:p-6 cursor-pointer;
+    }
+
+    & .subnav_item:hover {
+      @apply bg-[#f4e8f1] rounded-lg;
+    }
+
+    & p {
+      @apply text-[#1F1A3D];
+    }
+    & p.subnav_title {
+      @apply font-bold;
+    }
+  }
+}
+
+.subnav_button {
+  @apply text-white bg-[#EA2667] rounded-md py-2 w-full text-center mt-4 font-semibold;
+}
+
+.subnavMobile {
+  @apply py-4 px-4 md:px-10;
+
+  & .subnav_item {
+    @apply px-2 cursor-pointer;
+  }
+
+  & .subnav_item:hover {
+    @apply bg-[#f4e8f1] rounded-lg;
+  }
+
+  & p {
+    @apply text-[#1F1A3D];
+  }
+  & p.subnav_title {
+    @apply font-bold;
+  }
+}
+
+.menu-item {
+  @apply py-4;
 }
 
 .menu {
@@ -65,13 +122,13 @@
 }
 
 .mobileHead {
-  @apply flex items-center justify-end;
+  @apply flex items-center justify-between pb-6;
 }
 
 .mobileBody {
   @apply mt-6;
 
-  & nav {
+  & ul {
     @apply grid gap-y-5;
   }
 }
@@ -81,5 +138,5 @@
 }
 
 .mobileMenu {
-  @apply inline-flex items-center text-body font-medium hover:underline;
+  @apply inline-flex items-center text-body font-medium hover:underline w-full cursor-pointer;
 }
