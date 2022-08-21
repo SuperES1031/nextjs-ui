@@ -24,7 +24,7 @@
 
 .subnav {
   @apply absolute lg:w-[950px] xl:w-[1200px] left-[-250px] z-50 bg-[#F5F4FA] top-10 p-6 rounded-[20px] overflow-hidden;
-  transform: scaleY(0);
+  // transform: scaleY(0);
   transform-origin: top;
   transition: all 0.3s ease;
 
@@ -50,6 +50,9 @@
 
 .subnav_button {
   @apply text-white bg-[#EA2667] rounded-md py-2 w-full text-center mt-4 font-semibold;
+  & a {
+    @apply justify-center;
+  }
 }
 
 .subnavMobile {
