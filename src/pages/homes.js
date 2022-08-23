@@ -1,3 +1,4 @@
+import HtmlParser from 'html-react-parser'
 import Background from "@components/atoms/Background";
 import Layout from "@components/common/Layout";
 import TextSubHeading from "@components/molecules/TextSubHeading";
@@ -13,7 +14,8 @@ import Taste from "@components/organisms/Taste";
 import Testimonial from "@components/organisms/Testimonial";
 import Link from "next/link";
 
-export default function Homes() {
+export default function Homes({ page }) {
+  const { yoast_head } = page
   const hero = {
     image: 'home_product_hero',
     heading: 'Home warranties that don’t suck (or make a weird clanging noise).',
@@ -140,7 +142,7 @@ export default function Homes() {
   ]
 
   return (
-    <Layout>
+    <Layout seo={HtmlParser(yoast_head)}>
       <Hero
         image={hero.image}
         heading={hero.heading}
@@ -175,4 +177,20 @@ export default function Homes() {
       <StopAt text={stopText} data={stopData} />
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const PAGE_ID = 9
+
+  const res = await fetch(
+    `https://pretzelwarrant.wpengine.com/wp-json/wp/v2/pages/${PAGE_ID}`
+  )
+  const page = await res.json()
+
+  return {
+    props: {
+      page: page,
+    },
+    revalidate: 10,
+  }
 }

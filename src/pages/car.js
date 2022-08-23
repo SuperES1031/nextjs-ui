@@ -1,3 +1,4 @@
+import HtmlParser from 'html-react-parser'
 import Background from "@components/atoms/Background";
 import Layout from "@components/common/Layout";
 import NATextHeading from "@components/molecules/NATextHeading";
@@ -15,7 +16,9 @@ import Taste from "@components/organisms/Taste";
 import Testimonial from "@components/organisms/Testimonial";
 import Link from "next/link";
 
-export default function Vehicle() {
+export default function Vehicle({ page }) {
+  const { yoast_head } = page
+
   const hero = {
     image: 'vehicle_hero',
     heading: 'Your vehicle, protected.',
@@ -118,7 +121,7 @@ export default function Vehicle() {
   ]
 
   return (
-    <Layout>
+    <Layout seo={HtmlParser(yoast_head)}>
       <Hero
         image={hero.image}
         heading={hero.heading}
@@ -162,4 +165,20 @@ export default function Vehicle() {
       <StopAt text={stopText} data={stopData} />
     </Layout >
   )
-} 
+}
+
+export async function getStaticProps() {
+  const PAGE_ID = 10
+
+  const res = await fetch(
+    `https://pretzelwarrant.wpengine.com/wp-json/wp/v2/pages/${PAGE_ID}`
+  )
+  const page = await res.json()
+
+  return {
+    props: {
+      page: page,
+    },
+    revalidate: 10,
+  }
+}

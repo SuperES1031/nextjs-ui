@@ -1,4 +1,5 @@
 import Hero from "@components/organisms/Hero";
+import HtmlParser from 'html-react-parser'
 import Layout from "components/common/Layout";
 import ComPrice from "@components/organisms/ComPrice";
 import TextHeading from "@components/molecules/TextHeading";
@@ -9,7 +10,9 @@ import PretzelMean from "@components/organisms/PretzelMean";
 import Backed from "@components/organisms/Backed";
 import Testimonial from "@components/organisms/Testimonial";
 
-export default function Home() {
+export default function Home({ page }) {
+  const { yoast_head } = page
+
   const hero = {
     image: 'home_hero',
     heading: 'Making life better through better protection.',
@@ -99,7 +102,7 @@ export default function Home() {
   ]
 
   return (
-    <Layout>
+    <Layout seo={HtmlParser(yoast_head)}>
       <Hero
         image={hero.image}
         heading={hero.heading}
@@ -123,4 +126,20 @@ export default function Home() {
       <Testimonial />
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+
+  const PAGE_ID = 5
+  const res = await fetch(
+    `https://pretzelwarrant.wpengine.com/wp-json/wp/v2/pages/${PAGE_ID}`
+  )
+  const page = await res.json()
+
+  return {
+    props: {
+      page: page,
+    },
+    revalidate: 10,
+  }
 }

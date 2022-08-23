@@ -1,3 +1,4 @@
+import HtmlParser from 'html-react-parser'
 import Space from "@components/atoms/Space";
 import Layout from "@components/common/Layout";
 import TextHeading from "@components/molecules/TextHeading";
@@ -7,7 +8,9 @@ import DgtT from "@components/organisms/DgtT";
 import OurMission from "@components/organisms/OurMission";
 import ShortVersion from "@components/organisms/ShortVersion";
 
-export default function About() {
+export default function About({ page }) {
+  const { yoast_head } = page
+
   const hero = {
     text: {
       heading: "What is Pretzel Warranty?",
@@ -24,7 +27,7 @@ export default function About() {
   }
 
   return (
-    <Layout>
+    <Layout seo={HtmlParser(yoast_head)}>
       <Space />
       <AboutHero text={hero.text} image={hero.image} />
       <ShortVersion />
@@ -36,4 +39,20 @@ export default function About() {
       <DgtT />
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const PAGE_ID = 7
+
+  const res = await fetch(
+    `https://pretzelwarrant.wpengine.com/wp-json/wp/v2/pages/${PAGE_ID}`
+  )
+  const page = await res.json()
+
+  return {
+    props: {
+      page: page,
+    },
+    revalidate: 10,
+  }
 }
