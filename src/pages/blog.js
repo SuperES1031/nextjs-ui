@@ -19,7 +19,6 @@ export default function Blog({ page, primaryPost }) {
         <div className="max-w-5xl m-auto py-10 px-2">
           <TextHero heading={hero.heading} subheading={hero.text} />
         </div>
-
         <BlogSection />
       </div>
     </Layout>

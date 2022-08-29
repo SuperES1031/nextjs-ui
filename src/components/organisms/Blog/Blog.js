@@ -2,6 +2,7 @@ import PostCard from "@components/molecules/PostCard"
 import styles from "./Blog.module.scss"
 import { getPosts } from "@functions/wordpress/fetchData"
 import { useEffect, useState } from "react"
+import PostCategory from "@components/molecules/PostCategory"
 
 export default function BlogSection() {
   const [page, setPage] = useState(1)
@@ -20,16 +21,18 @@ export default function BlogSection() {
     }
   }, [data])
 
-  console.log(posts.length)
   return (
-    <div className={styles.wrap}>
-      {Array.isArray(data) &&
-        posts.map((post, index) => (
-          <div key={index}>
-            <PostCard post={post} />
-          </div>
-        ))
-      }
-    </div>
+    <div className={styles.root}>
+      <PostCategory />
+      <div className={styles.wrap}>
+        {Array.isArray(data) &&
+          posts.map((post, index) => (
+            <div key={index}>
+              <PostCard post={post} />
+            </div>
+          ))
+        }
+      </div>
+    </div >
   )
 }

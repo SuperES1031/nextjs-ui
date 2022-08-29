@@ -1,10 +1,11 @@
 import Image from '@components/atoms/Image';
-import { getImage } from '@functions/wordpress/fetchData';
+import { getImage, getPostCategries } from '@functions/wordpress/fetchData';
 import Link from 'next/link';
 import styles from './PostHero.module.scss';
 
 export default function PostHero({ post }) {
   const { image } = getImage(post.featured_media)
+  const { categories } = getPostCategries(post.id)
 
   return (
     <div className={styles.root}>
@@ -18,12 +19,14 @@ export default function PostHero({ post }) {
         </div>
         <div className={styles.body}>
           <div className='flex items-center justify-between m-auto max-w-2xl lg:max-w-full'>
-            <p> tags</p>
+            {Array.isArray(categories) && (
+              <p className="text-base tracking-tight text-[#EE2E64]"> {categories.join(', ')} </p>
+            )}
             <div className={styles.social}>
               <Link href='/'>
                 <a>
                   <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" clipLule="evenodd" d="M5.31965 16V7.99906H7.68636L8 5.2419H5.31965L5.32367 3.86191C5.32367 3.1428 5.39689 2.75748 6.50368 2.75748H7.98325V0H5.6162C2.773 0 1.77227 1.33752 1.77227 3.58682V5.24221H0V7.99938H1.77227V16H5.31965Z" fill="#EE2E64" />
+                    <path fillRule="evenodd" cliplule="evenodd" d="M5.31965 16V7.99906H7.68636L8 5.2419H5.31965L5.32367 3.86191C5.32367 3.1428 5.39689 2.75748 6.50368 2.75748H7.98325V0H5.6162C2.773 0 1.77227 1.33752 1.77227 3.58682V5.24221H0V7.99938H1.77227V16H5.31965Z" fill="#EE2E64" />
                   </svg>
                 </a>
               </Link>

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import Image from '@components/atoms/Image'
 import styles from './PostCard.module.scss'
-import { getImage } from '@functions/wordpress/fetchData'
+import { getImage, getPostCategries } from '@functions/wordpress/fetchData'
 import cn from 'classnames'
 import Link from 'next/link'
 import HTMLContent from '@components/atoms/HTMLContent'
@@ -15,10 +15,9 @@ export default function PostCard({
   showButton,
   className,
 }) {
-  console.log(post)
-  // const { tags } = getPostTags(post.id)
-  // const { author } = getAuthor(post.author)
   const { image } = getImage(post.featured_media)
+  const { categories } = getPostCategries(post.id)
+
   return (
     <div className={cn(styles.root, className)}>
       <div className={cn(styles.wrap)}>
@@ -33,25 +32,17 @@ export default function PostCard({
         )}
 
         <div className={styles.inner}>
-          {/* <div className={styles.tags}>
-            {showCategory && (<Tag text={post.categoryName} type='primary' />
-            )}
-          </div> */}
-
-          {/* {!showCategory && Array.isArray(tags) && (
-            <div className={styles.tags}>
-              {tags?.map((tag, index) => (
-                <Tag text={tag.name} type='primary' key={index} />
-              ))}
-            </div>
-          )} */}
           <div className='flex atems-center justify-between py-2'>
-            <div></div>
+            <div>
+              {Array.isArray(categories) && (
+                <p className="text-base tracking-tight text-[#EE2E64]"> {categories.join(', ')} </p>
+              )}
+            </div>
             <div className={styles.social}>
               <Link href='/'>
                 <a>
                   <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" clipLule="evenodd" d="M5.31965 16V7.99906H7.68636L8 5.2419H5.31965L5.32367 3.86191C5.32367 3.1428 5.39689 2.75748 6.50368 2.75748H7.98325V0H5.6162C2.773 0 1.77227 1.33752 1.77227 3.58682V5.24221H0V7.99938H1.77227V16H5.31965Z" fill="#EE2E64" />
+                    <path fillRule="evenodd" cliplule="evenodd" d="M5.31965 16V7.99906H7.68636L8 5.2419H5.31965L5.32367 3.86191C5.32367 3.1428 5.39689 2.75748 6.50368 2.75748H7.98325V0H5.6162C2.773 0 1.77227 1.33752 1.77227 3.58682V5.24221H0V7.99938H1.77227V16H5.31965Z" fill="#EE2E64" />
                   </svg>
                 </a>
               </Link>

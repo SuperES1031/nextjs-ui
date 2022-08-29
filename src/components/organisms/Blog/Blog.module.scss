@@ -1,3 +1,7 @@
-.wrap {
-  @apply grid grid-cols-3 max-w-7xl m-auto px-8 gap-x-10 gap-y-10 mb-20;
+.root {
+  @apply max-w-7xl m-auto;
+
+  & .wrap {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-8 gap-x-10 gap-y-10 mb-20  pt-10;
+  }
 }

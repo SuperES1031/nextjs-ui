@@ -142,7 +142,6 @@ export default function PrimaryMenu() {
     return () => document.removeEventListener('scroll', event);
   }, [])
 
-  console.log(asPath)
   return (
     <Popover >
       <div className={cn(styles.wrap, scroll && 'bg-white shadow-lg  duration-300 !fixed w-full')}>

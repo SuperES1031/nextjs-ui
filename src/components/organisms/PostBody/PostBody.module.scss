@@ -1,0 +1,7 @@
+.social {
+  @apply flex items-center ml-4;
+
+  & a {
+    @apply px-1;
+  }
+}

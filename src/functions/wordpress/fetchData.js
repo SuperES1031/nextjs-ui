@@ -28,4 +28,29 @@ export function getImage(id) {
   }
 }
 
+export function getCategories() {
+  const { data, error } = useSWR(
+    `https://pretzelwarrant.wpengine.com/wp-json/postcategories/v1/all`,
+    fetcher
+  )
+
+  return {
+    categories: data,
+    loading: !error && !data,
+    error: error,
+  }
+}
+
+export function getPostCategries(postId) {
+  const { data, error } = useSWR(
+    `https://pretzelwarrant.wpengine.com/wp-json/postcategories/v1/${postId}`,
+    fetcher
+  )
+
+  return {
+    categories: data,
+    loading: !error && !data,
+    error: error,
+  }
+}
 
