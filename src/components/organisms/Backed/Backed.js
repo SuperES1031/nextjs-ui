@@ -1,5 +1,6 @@
 import GridImage from '@components/molecules/GridImage'
 import TextHeading from '@components/molecules/TextHeading'
+import cn from 'classnames'
 import styles from './Backed.module.scss'
 
 export default function Backed({ classname }) {
@@ -27,7 +28,7 @@ export default function Backed({ classname }) {
           />
         </div>
         <div className={styles.body}>
-          <GridImage data={data} className={classname} />
+          <GridImage data={data} className={cn(classname, 'pointer-events-none')} />
         </div>
       </div>
     </div>

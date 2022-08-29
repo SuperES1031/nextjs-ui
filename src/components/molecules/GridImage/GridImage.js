@@ -18,7 +18,7 @@ export default function GridImage(props) {
         {items && items.map((item, index) => (
           <li key={index} className=''>
             {item.image && (
-              <Image src={item.image} className={styles.image} alt={item.subheading} />
+              <Image src={item.image} className={cn(styles.image, classname)} alt={item.subheading} />
             )}
             {item.subheading && (
               <p className={styles.subheading} >{item.subheading}</p>

@@ -1,0 +1,26 @@
+.root {
+  @apply rounded-xl bg-[#F5F4FA];
+
+  & .inner {
+    @apply text-center px-6 py-6;
+
+    & .title {
+      @apply text-[#25122A] text-2xl font-bold;
+    }
+
+    & .content {
+      @apply text-[#1F1A3D] text-lg indent-1;
+    }
+
+    & .btn {
+      @apply text-[#E4255C] text-lg font-bold;
+    }
+    & .social {
+      @apply flex;
+
+      & a {
+        @apply px-1;
+      }
+    }
+  }
+}

@@ -7,12 +7,13 @@ import styles from './PrimaryMenu.module.scss'
 import Link from 'next/link'
 import isLinkActive from '@functions/isLinkActive'
 import cn from 'classnames'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function PrimaryMenu() {
   const router = useRouter()
   const asPath = router ? router.asPath : '/'
   const [open, setOpen] = useState(false)
+  const [scroll, setScroll] = useState(false)
 
   const menus = [
     {
@@ -125,15 +126,32 @@ export default function PrimaryMenu() {
     }
   }
 
+  useEffect(() => {
+    const event = () => {
+      setScroll(() => {
+        if (typeof window !== 'undefined') {
+          if (window.scrollY < 50) {
+            return false;
+          }
+        }
+
+        return true;
+      });
+    };
+    document.addEventListener('scroll', event);
+    return () => document.removeEventListener('scroll', event);
+  }, [])
+
+  console.log(asPath)
   return (
     <Popover >
-      <div className={styles.wrap}>
+      <div className={cn(styles.wrap, scroll && 'bg-white shadow-lg  duration-300 !fixed w-full')}>
         <div className={styles.inner}>
           <div className={styles.desktop}>
             <div className='flex'>
               <div className={styles.logo}>
                 {
-                  isHB(asPath) ? (
+                  isHB(asPath) && !scroll ? (
                     <Image
                       src='logo_primary'
                       href='/'
@@ -162,13 +180,13 @@ export default function PrimaryMenu() {
                         <a
                           className={cn(
                             isLinkActive(asPath, menu.link) && styles.active,
-                            isHB(asPath) && styles.primaryColor
+                            isHB(asPath) && !scroll && styles.primaryColor
                           )}
                         >
                           {menu.title}
                           {menu.title === "Plans" && (
                             <svg className={cn('ml-2 mt-[4px]')} width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1 1L5 5L9 1" stroke={isHB(asPath) ? "white" : "black"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                              <path d="M1 1L5 5L9 1" stroke={isHB(asPath) && !scroll ? "white" : "black"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                           )}
                         </a>

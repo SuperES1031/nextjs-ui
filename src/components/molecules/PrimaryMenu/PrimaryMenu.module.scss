@@ -117,7 +117,7 @@
 }
 
 .mobile {
-  @apply absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden z-50;
+  @apply absolute top-0 inset-x-0 p-4 transition duration-300 transform origin-top-right lg:hidden z-50;
 }
 
 .mobileInner {

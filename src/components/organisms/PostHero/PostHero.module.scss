@@ -1,0 +1,23 @@
+.wrap {
+  @apply max-w-[1300px] m-auto lg:flex items-center px-4;
+
+  & .image {
+    @apply lg:w-4/5 m-auto max-w-2xl lg:max-w-full;
+  }
+  & .body {
+    @apply pl-10 py-6;
+
+    & h1 {
+      @apply text-3xl md:text-title font-semibold text-[#1f1a3d] tracking-normal text-center lg:text-left;
+      letter-spacing: -2px;
+    }
+
+    & .social {
+      @apply flex py-6;
+
+      & a {
+        @apply px-4;
+      }
+    }
+  }
+}

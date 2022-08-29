@@ -20,7 +20,7 @@
 }
 
 .text {
-  @apply text-[18px] md:text-body pb-6 text-[#1F1A3D] max-w-[300px] m-auto;
+  @apply text-[18px] md:text-body pb-6 text-[#1F1A3D] max-w-[300px] m-auto min-h-[100px];
 }
 
 .price {
