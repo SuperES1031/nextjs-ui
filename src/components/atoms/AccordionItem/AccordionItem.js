@@ -11,6 +11,7 @@ export default function AccordionItem({
   onClick
 }) {
   return (
+    
     <div className={styles.wrap}>
       <div className={cn(styles.head, ariaExpanded)} onClick={onClick}>
         <Image src={icon} alt={'icon' + index} />
