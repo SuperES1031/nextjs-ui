@@ -7,6 +7,7 @@ export default function Layout({ children, seo }) {
     <>
       <Head>{seo}</Head>
       <Header />
+      git 
       <main id='page-content'>{children}</main>
       <Footer />
     </>
