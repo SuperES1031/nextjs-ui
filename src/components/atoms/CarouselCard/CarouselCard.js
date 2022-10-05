@@ -11,6 +11,7 @@ export default function CarouselCard(props) {
       <p className={styles.name}>
         - {testimonial.name}
       </p>
+      
       <svg width="147" height="22" viewBox="0 0 147 22" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.413 17.76L4.36 21.708L5.935 13.78L0 8.292L8.027 7.34L11.413 0L14.799 7.34L22.826 8.292L16.891 13.78L18.466 21.708L11.413 17.76Z" fill="#F4BF00" />
         <path d="M42.413 17.76L35.36 21.708L36.935 13.78L31 8.292L39.027 7.34L42.413 0L45.799 7.34L53.826 8.292L47.891 13.78L49.466 21.708L42.413 17.76Z" fill="#F4BF00" />
